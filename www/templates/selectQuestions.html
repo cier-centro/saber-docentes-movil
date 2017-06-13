@@ -1,0 +1,90 @@
+<ion-view hide-nav-bar="true" id="page6">
+    <div class="informative-header">
+      <div class="row row-center informative-labels">
+        <div>Nombre de la Prueba:</div>
+        <div>Asignatura:</div>
+        <div>Grado:</div>
+      </div>
+      <div class="row informative-content">
+        <div>{{header_data.test}}</div>
+        <div>{{header_data.asignature}}</div>
+        <div>{{header_data.level}}</div>
+      </div>
+    </div>
+    <div class="question-counter">
+      <div class="counter-container">
+        <span></span>
+        <div class="counter-text">
+          <b>Pregunta</b>
+          {{data.numberofquestions}}/{{data.max_questions}}
+        </div>
+      </div>
+    </div>
+    <ion-content padding="true">
+      <!--<div class="row">
+				<div class="col-100">
+            <a id="page-button15" class="button button-assertive  button-block" ng-click="Print()" ng-if="current_question != 0">Atrás</a>
+        </div>
+			</div>-->
+      <div class="select-questions-page-content">
+        <form id="question_list" class="list">
+          <h4 id="page3-heading3">DBA SELECCIONADOS</h4>
+            <ion-list>
+              <div class="checkbox-list">
+                <div class="dba-container" ng-repeat="dba in dbas">
+                  <div class="row dba-title">
+                      <div class="col">
+                          <h5>DBA {{dba.id_name}}</h5>
+                          <ion-item class="row row-center"
+                                    ng-click="toggleGroup(dba)"
+                                    ng-class="{active: isGroupShown(dba)}">
+                              <i class="icon" ng-class="isGroupShown(dba) ? 'ion-minus' : 'ion-plus'"></i>
+                              <p style="margin-left:2.5em" align="justify"> {{dba.name}} </p>
+                          </ion-item>
+                      </div>
+                  </div>
+                  <div class="row">
+                    <div class="col questions-list" ng-class="isGroupShown(dba) ? 'opened-list' : 'closed-list'">
+                      <div class="row row-center question-item" ng-repeat="question in dba.questions">
+                          <div class="col">
+                              <ion-checkbox class="item-accordion"
+                                            name="{{question.id}}"
+                                            ng-click="setCounter($event)"
+                                            ng-show="isGroupShown(dba)"><p style="margin-left:2.5em"> {{question.header_question}}</p>
+
+                              </ion-checkbox>
+                          </div>
+                          <div class="more-info-button-container" style="vertical-align:central">
+                              <a id="button_{{question.id}}" class="button" ng-click="showDetail($event,question)" ng-show="isGroupShown(dba)" style="width:100%">
+                                <i class="icon" ng-class="'ion-eye'"></i>
+                              </a>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </ion-list>
+
+        </form>
+        <div id="page-button-bar9" class="button-bar">
+            <div class="row responsive-md button-container">
+                <div class="col">
+                    <a id="page-button11" class="button back-button button-block" ng-click="Return()" ng-if="current_question != 0">
+                      <span></span>
+                      Atrás
+                    </a>
+                </div>
+                <div class="col empty-col">
+                </div>
+                <div class="col">
+                    <a id="page-button11" class="button see-test-button button-block" ng-click="showTest()">
+                      <span></span>
+                      Visualizar Prueba
+                    </a>
+                </div>
+            </div>
+        </div>
+      </div>
+    </ion-content>
+</ion-view>

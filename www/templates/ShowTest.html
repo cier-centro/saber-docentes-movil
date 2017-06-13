@@ -1,0 +1,104 @@
+<ion-view hide-nav-bar="true" id="page6">
+    <div class="informative-header">
+      <div class="row row-center informative-labels">
+        <div>Nombre de la Prueba:</div>
+        <div>Asignatura:</div>
+        <div>Grado:</div>
+      </div>
+      <div class="row informative-content">
+        <div>{{header_data.test}}</div>
+        <div>{{header_data.asignature}}</div>
+        <div>{{header_data.level}}</div>
+      </div>
+    </div>
+    <ion-content padding="true">
+      <div class="show-test-page-content">
+        <h4>HOJA DE PREGUNTAS</h4>
+        <div class="row question-info-container" ng-repeat="question in questions track by $index" ng-init="parentIndex = $index">
+          <div class="col">
+            <h5><b>PREGUNTA {{$index+1}}:</b> ({{question.question.cod_question}})</h5>
+            <div class="question-info">
+              <p>{{question.question.header_question}}</p>
+              <div class="item item-text-wrap">
+                <div id="mathContainer_{{$index}}" ng-if="question.question.type=='2'">
+                    {{question.question.file}}
+                </div>
+                <div id="mathContainer" ng-if="question.question.type=='1'">
+                    <canvas id="pdf_viewer_{{$index}}" style="width:100%"></canvas>
+                </div>
+                <div id="mathContainer" ng-if="question.question.type=='3'" >
+                    <img id="ImgContainer_{{$index}}" src="contents/{{question.question.file}}" class="row" >
+                </div>
+              </div>
+              <h4>Respuestas:</h4>
+              <div>
+                <div ng-repeat="option in question.question.answers track by $index"  class="question-option" id="question_{{parentIndex}}_answer_{{$index}}">
+                  <div class="row row-center">
+                    <span class="bullet"></span>{{option.header_answer}}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            <!--<div class="col-20">
+                <a class="button button-royal button-block icon-left ion-eye" ng-click="showQuestion(question)">Pregunta {{$index+1}}</a>
+            </div>
+            <div class="col-20" ng-repeat="option in question.question.answers track by $index">
+                {{option.header_answer}}
+                <i class="icon ion-checkmark balanced button button-block" ng-if="$index == question.selected_index && option.is_correct"></i>
+                <i class="icon ion-close-circled assertive button button-block" ng-if="$index == question.selected_index && !option.is_correct"></i>
+            </div>-->
+        </div>
+
+        <!--<div class="row" ng-repeat="question in questions track by $index">
+            <div class="col-20">
+                <a class="button button-royal button-block icon-left ion-eye" ng-click="showQuestion(question)">Pregunta {{$index+1}}</a>
+            </div>
+            <div class="col-20" ng-repeat="option in question.question.answers track by $index">
+                {{option.header_answer}}
+                <i class="icon ion-checkmark balanced button button-block" ng-if="$index == question.selected_index && option.is_correct"></i>
+                <i class="icon ion-close-circled assertive button button-block" ng-if="$index == question.selected_index && !option.is_correct"></i>
+            </div>
+        </div>-->
+
+        <div class="button-container">
+            <div class="row responsive-md">
+                <div class="col">
+                  <a class="button button-block load-button" ng-click="showFileName()">
+                    <span></span>
+                    Descargar PDF
+                  </a>
+                </div>
+                <div class="col">
+                  <a class="button button-block load-button" ng-click="showFileNameTest()">
+                    <span></span>
+                    Descargar Archivo plano
+                  </a>
+                </div>
+                <div class="col">
+                  <a class="button button-block load-button" ng-click="answerSheet()">
+                    <span></span>
+                    Descargar Respuestas
+                  </a>
+                </div>
+            </div>
+            <div class="row row responsive-md">
+              <div class="col">
+                <a class="button button-block back-button" ng-click="backToQuestion()">
+                  <span></span>
+                  Atrás
+                </a>
+              </div>
+              <div class="col empty-col">
+              </div>
+              <div class="col">
+                <a class="button button-block finish-button" ng-click="resetvariablesAndGoBack()">
+                  <span></span>
+                  Terminar
+                </a>
+              </div>
+            </div>
+        </div>
+      </div>
+    </ion-content>
+</ion-view>

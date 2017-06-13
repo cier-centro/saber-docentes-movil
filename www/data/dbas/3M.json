@@ -1,0 +1,97 @@
+﻿[
+    {
+        "id": "3M1",
+        "name": "Prueba reviewfsdfs",
+        "cod": "3M1"
+    },
+    {
+        "id": "3M10",
+        "name": "Ubica lugares en mapas y describe trayectos. Por ejemplo, ubica la iglesia en una esquina de la calle 244 con la carrera 18, y describe distintas formas de llegar del punto negro a la iglesia.",
+        "cod": "3M10"
+    },
+    {
+        "id": "3M100",
+        "name": "HOLA PRUEBA DE DBA",
+        "cod": "3M100"
+    },
+    {
+        "id": "3M101",
+        "name": "PRUEBA 2",
+        "cod": "3M101"
+    },
+    {
+        "id": "3M103",
+        "name": "PRUEBA 3",
+        "cod": "3M103"
+    },
+    {
+        "id": "3M11",
+        "name": "Mide y estima longitud, distancia, área, capacidad, peso, duración, etc., en objetos y\/o eventos. Por ejemplo: Mide la capacidad de un balde usando una taza y concluye \"La capacidad del balde es de casi 23 tazas\", o mide la altura de su hermano usando un metro y concluye \"Mi hermano mide un metro y medio\". \nIdentifica qué instrumentos de medición debe utilizar según el caso (una balanza para el peso, una regla para la longitud, un reloj para el tiempo, etc.).",
+        "cod": "3M11"
+    },
+    {
+        "id": "3M12",
+        "name": "asfadfsadfasdfasdf",
+        "cod": "3M12"
+    },
+    {
+        "id": "3M13",
+        "name": "Usa correctamente las expresiones posible, imposible, muy posible y poco posible. Por ejemplo, “Es imposible obtener 18 al lanzar un dado una vez” o “Si en la clase hay 3 niñas y 20 niños, es poco posible que una niña se gane la rifa”.",
+        "cod": "3M13"
+    },
+    {
+        "id": "3M14",
+        "name": "Puede describir variaciones. Por ejemplo: Si escucha\nuna canción puede decir algo como “Al ﬁnal, el volumen\nfue bajando” o “El ritmo va cada vez más rápido”.",
+        "cod": "3M14"
+    },
+    {
+        "id": "3M15",
+        "name": "Reconoce y propone patrones con números o ﬁguras\ngeométricas. Por ejemplo: Descubre que el patrón es “multiplicar por 2” y deduce que el siguiente término es 192.",
+        "cod": "3M15"
+    },
+    {
+        "id": "3M16",
+        "name": "azdasdasdas",
+        "cod": "3M16"
+    },
+    {
+        "id": "3M2",
+        "name": "Resuelve distintos tipos de problemas que involucren sumas, restas, multiplicaciones y divisiones.",
+        "cod": "3M2"
+    },
+    {
+        "id": "3M3",
+        "name": "Entiende que dividir corresponde a hacer repartos equitativos. Divide números de hasta tres cifras entre un número de una cifra en casos simples en los que se puede hacer un reparto equitativo sin que sobre nada. ",
+        "cod": "3M3"
+    },
+    {
+        "id": "3M4",
+        "name": "Multiplica números de hasta tres cifras por un número de una cifra utilizando diversas estrategias. Por ejemplo, 4×550.",
+        "cod": "3M4"
+    },
+    {
+        "id": "3M5",
+        "name": "Comprende la relación entre la multiplicación y la división. Por ejemplo: Para encontrar 32÷8, encuentra el número que al ser multiplicado por 8 da 32.",
+        "cod": "3M5"
+    },
+    {
+        "id": "3M6",
+        "name": "Comprende el uso de fracciones para describir situaciones en las que una unidad se divide en partes iguales. Por ejemplo, 5 porciones de una torta partida en 12 pedazos iguales corresponden a cinco doceavos de torta.",
+        "cod": "3M6"
+    },
+    {
+        "id": "3M7",
+        "name": "Compara fracciones sencillas y reconoce fracciones que aunque se vean distintas, representan la misma cantidad como un medio (1\/2) y dos cuartos  (2\/4).",
+        "cod": "3M7"
+    },
+    {
+        "id": "3M8",
+        "name": "Comprende el significado de la igualdad y utiliza el símbolo \" = \" de forma correcta. ",
+        "cod": "3M8"
+    },
+    {
+        "id": "3M9",
+        "name": "Puede ampliar o reducir ﬁguras en una cuadrícula; identifica figuras y objetos simétricos en contextos como la geometría, el arte, el diseño y la naturaleza; Hace dibujos con ejes de simetría. ",
+        "cod": "3M9"
+    }
+]

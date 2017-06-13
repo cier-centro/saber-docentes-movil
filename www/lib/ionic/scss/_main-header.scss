@@ -1,0 +1,108 @@
+/**
+ * Header Styles
+ * --------------------------------------------------
+ */
+.logo-container-item-size {
+  @include flex(0, 0, 80px);
+  max-width: 80px;
+  height: 80px;
+}
+
+@media (max-width: 767px) {
+  .header-bar {
+    display: none;
+  }
+}
+
+.principal-header {
+  background: white;
+
+  .logo-container {
+    align-items: center;
+
+    div:first-child {
+      background: url('../../../img/logo_header_girl.gif') no-repeat center/contain;
+      @extend .logo-container-item-size;
+    }
+    div:nth-child(2) {
+      background: url('../../../img/logo_header_owl.gif') no-repeat center/contain;
+      margin: 0 10px 0 15px;
+      @extend .logo-container-item-size;
+    }
+    .title-container {
+      * {
+        margin: 0;
+        color: $green-background;
+      }
+      h4 {
+        font-size: 32px;
+      }
+      h5 {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .header-logos {
+    div {
+      height: 70px;
+      @include flex(0, 0, 33.3333%);
+      max-width: 33.3333%;
+
+      &:first-child {
+        margin-left: 0%;
+        background: url('../../../img/logo_gob_cundinamarca.gif') no-repeat center/contain;
+      }
+      &:nth-child(2) {
+        background: url('../../../img/logo_cier_centro.gif') no-repeat center/contain;
+      }
+      &:nth-child(3) {
+        background: url('../../../img/logo_unal.gif') no-repeat center/contain;
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    .logo-container {
+      justify-content: left;
+    }
+
+    .header-logos {
+      div {
+        @include flex(0, 0, 27%);
+        max-width: 27%;
+
+        &:first-child {
+          margin-left: 13%;
+        }
+
+        &:nth-child(2) {
+          margin: 0 3%;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    .logo-container {
+      justify-content: center;
+
+      .col {
+        margin-bottom: 0 !important;
+      }
+    }
+
+    & > .row > div {
+      margin-bottom: 0 !important;
+
+      &:nth-child(2) {
+        display: none;
+      }
+    }
+
+    .header-logos {
+      max-width: 350px;
+      margin: auto;
+    }
+  }
+}

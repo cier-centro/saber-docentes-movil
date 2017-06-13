@@ -1,0 +1,32 @@
+/**
+ * Popup Styles
+ * --------------------------------------------------
+ */
+.popup {
+  background: white !important;
+
+  .popup-head {
+    background: $selected-option-background;
+    border: none;
+
+    h3 {
+      @extend .modal-title-style;
+    }
+  }
+  .popup-body {
+    @include shadow-properties(inset 0px 76px 15px -70px rgba(0, 0, 0, 0.4));
+    padding: 20px 10px 10px;
+  }
+  .popup-buttons {
+    .button {
+      @extend .cancel-modal-button-style;
+      border-top: 2px solid #2CB4AD;
+      background: rgba($warning-background, 0.5);
+
+      &:hover {
+        @extend .cancel-modal-button-hover;
+        background: rgba($warning-background, 0.8);
+      }
+    }
+  }
+}

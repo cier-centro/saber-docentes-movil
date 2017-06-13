@@ -1,0 +1,88 @@
+/**
+ * Form items Styles
+ * --------------------------------------------------
+ */
+
+form {
+
+  .item-radio {
+    &, & .item-content {
+      background: transparent;
+      border: none;
+    }
+    input {
+      & + .radio-content .item-content {
+        background: $white-button-background;
+        border-bottom: 2px solid white;
+      }
+
+      &:checked + .radio-content {
+        & {
+          height: 75px;
+          width: calc(100% - 5px);
+        }
+
+        .item-content {
+          background: $selected-option-background;
+          border: none;
+          @include shadow-properties(6px 6px 6px -3px rgba(0, 0, 0, 0.4));
+        }
+      }
+    }
+    .radio-content {
+      .item-content {
+        padding: 16px 16px 16px 70px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+      }
+      .radio-icon {
+        right: none;
+        visibility: visible;
+        left: 0;
+        width: 63px;
+        background: url('../../../img/img_spritesheet.png') no-repeat;
+      }
+    }
+    span {
+      color: white;
+      text-transform: uppercase;
+      font: {
+        size: 22px;
+        weight: 600;
+      }
+    }
+
+    .ion-checkmark:before {
+      content: "";
+    }
+  }
+
+  .input-text-styles {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: $input-text-color;
+  }
+
+  .item-select {
+    height: 55px !important;
+
+    select {
+      width: 100%;
+      max-width: 100%;
+      direction: ltr;
+      @extend .input-text-styles;
+    }
+  }
+
+  .item-input {
+    input {
+      @extend .input-text-styles;
+    }
+  }
+
+  .item-select, .item-input {
+    border: 4px solid $warning-background;
+    @include shadow-properties(6px 6px 6px -3px rgba(0, 0, 0, 0.3));
+  }
+}

@@ -1,0 +1,48 @@
+<ion-view hide-nav-bar="true" id="page4" >
+  <div class="informative-header">
+    <div class="row row-center informative-labels">
+      <div>Nombre de la Prueba:</div>
+      <div>Asignatura:</div>
+      <div>Grado:</div>
+    </div>
+    <div class="row informative-content">
+      <div>{{header_data.test}}</div>
+      <div>{{header_data.asignature}}</div>
+      <div>{{header_data.level}}</div>
+    </div>
+  </div>
+    <ion-content padding="true">
+      <div class="select-dbas-page-content">
+        <form id="dba_list" class="list">
+            <h4 id="page-heading1" ng-if="dbas.length!=0">LISTADO DBA</h4>
+            <ion-list id="page-list2">
+                <div class="checkbox-list">
+                  <div class="dba-container" ng-repeat="(key, value) in dbas">
+                    <h5>DBA {{value.cod}}:</h5>
+                    <ion-checkbox name="{{value.id}}" >
+                      <p style="margin-left:1em" align="justify">{{value.name}}
+                      </p>
+                    </ion-checkbox>
+                  </div>
+                </div>
+            </ion-list>
+        </form>
+        <div id="page-button-bar9" class="row row responsive-md button-container">
+          <div class="col">
+            <a class="button button-block back-button" ng-click="goBack()">
+              <span></span>
+              Atrás
+            </a>
+          </div>
+          <div class="col empty-col">
+          </div>
+          <div class="col">
+            <button id="page-button12" class="button button-block select-questions-button" ng-click="saveSelectedDbas()">
+              <span></span>
+              Seleccionar Preguntas
+            </button>
+          </div>
+        </div>
+      </div>
+    </ion-content>
+</ion-view>

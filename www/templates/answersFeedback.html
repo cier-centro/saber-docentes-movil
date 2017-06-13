@@ -1,0 +1,82 @@
+<ion-view hide-nav-bar="true" id="feedback">
+  <div class="bar bar-light" id="header-data-test" style="height:initial">
+    <div class="card" id="test-data">
+      <div class="item item-text-wrap">
+        <div class="row responsive-md" id="fixed-data">
+          <div class="col-20"><h2>Nombre de la Prueba: </h2><p>{{header_data.test}}</p></div>
+          <div class="col-20"><h2>Nombre del estudiante:</h2> <p>{{header_data.student}}</p></div>
+          <div class="col-20"><h2>Asignatura:</h2><p> {{header_data.asignature}}</p></div>
+          <div class="col-20" ><h2>Curso:</h2> <p id="course">{{header_data.level}}</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <ion-content padding="true" id="has-second-header">
+    <canvas id="temporal" ></canvas>
+
+    <div class="card" id="empty-space">
+      <div class="row responsive-md">
+        <div class="col-20"><h2>Nombre de la Prueba: </h2><p>-</p></div>
+        <div class="col-20" id="name-label"><h2>Nombre del estudiante:</h2> <p>-</p></div>
+        <div class="col-20"><h2>Asignatura:</h2><p>-</p></div>
+        <div class="col-20 time-lab"><h2>Curso:</h2> <p>-</p></div>
+      </div>
+      <div class="row time-lab">
+        <div class="col-33"><h1>Pregunta:</h1> <p>-</p></div>
+        <div class="col-33" id ="time_counter"><h1>Pregunta:</h1> <p>-</p></div>
+      </div>
+    </div>
+
+
+    <div class="row answers" ng-repeat="question in questions track by $index" ng-init="parentIndex = $index">
+      <div class="card">
+        <div class="item item-divider">
+          <p class="question-numb">Pregunta número {{$index+1}}</p> <p>({{question.question.cod_question}})</p>
+        </div>
+        <p class="question">{{question.question.header_question}}</p>
+        <div class="item item-text-wrap">
+          <div id="mathContainer_{{$index}}" ng-if="question.question.type=='2'">
+            {{question.question.file}}
+          </div>
+          <div ng-if="question.question.type=='1'">
+            <canvas id="pdf_viewer_{{$index}}" style="width:100%;display:none" ></canvas>
+            <button class="button button-balanced" id="btn_canvas_{{$index}}" ng-click="loadPDFAng(question.question.file,'{{$index}}')">Cargar lectura</button>
+          </div>
+          <div  ng-if="question.question.type=='3'" >
+            <img id="ImgContainer_{{$index}}" src="contents/{{question.question.file}}" class="row" >
+          </div>
+          <div ng-repeat="option in question.question.answers track by $index">
+            <div class="answers-checked" ng-if="$index == question.selected_index || option.is_correct" id="question_{{parentIndex}}_answer_{{$index}}">
+              <i class="icon ion-checkmark" ng-if="option.is_correct"></i>
+              <i class="icon ion-close-circled" ng-if="!option.is_correct"></i>
+              {{option.header_answer}}
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+
+<div id="page-button-bar9" class="button-bar">
+  <div class="row responsive-md feedback-buttons">
+    <div class="col-33">
+      <a id="page-button11" class="button button-block button-positive save-button" ng-click="showFileName()">
+        <span></span>
+        Guardar PDF
+      </a>
+    </div>
+    <div class="col-33">
+    </div>
+    <div class="col-33">
+      <a id="page-button13" class="button button-block button-positive finish-button" ng-click="resetvariablesAndGoBack()">
+        <span></span>
+        Terminar
+      </a>
+    </div>
+
+  </div>
+</div>
+
+</ion-content>
+</ion-view>

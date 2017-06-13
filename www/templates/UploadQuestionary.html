@@ -1,0 +1,36 @@
+<ion-view hide-nav-bar="true" id="testupload" >
+
+    <ion-content padding="true">
+
+        <div class="principal-header upload-questionary">
+          <div class="row responsive-md">
+            <div class="upload-questionary-elements col">
+              <div class="card">
+                <div class="item item-text-wrap">
+                  <div class="row row-center responsive-md">
+                    <div class="col">
+                      <h1>Instrucciones para cargar una prueba:</h1>
+                      <p>{{data.path}} Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a finibus mi, elementum interdum leo. Maecenas eget ullamcorper tellus, vel hendrerit eros. Suspendisse potenti. Pellentesque vestibulum lorem sed sollicitudin vulputate. Donec consectetur dui ac turpis placerat, a faucibus velit finibus. Quisque gravida, lacus eget egestas imperdiet, magna erat suscipit augue, ut gravida nunc dolor id dolor. Mauris ut turpis laoreet, ultrices enim in, aliquam est. Fusce pretium odio vitae neque porttitor malesuada. Fusce egestas est mauris. {{path}} </p>
+                      <div class="list list-inset">
+                        <div class="item item-input">
+                          <i class="icon ion-search placeholder-icon"></i>
+                          <input type="text" id="filepathInput" ng-model="data.path" placeholder="Seleccionar Archivo" ng-click="findfile()">
+                          <a class="button" id="find-file" ng-click="findfile()"></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-30">
+                      <img src="img/img_upload_questionary.png" alt="image-panel">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="button-bar responsive-md upload-buttons">
+                <a class="button icon-left button-positive cancel-button" ng-click="cancel()" > <span></span> Cancelar</a>
+                <a class="button icon-left button-positive charge-test-button" ng-click="loadFile()"><span></span> Cargar Prueba</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </ion-content>
+</ion-view>

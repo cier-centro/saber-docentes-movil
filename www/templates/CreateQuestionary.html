@@ -1,0 +1,121 @@
+<ion-view hide-nav-bar="false" id="page4" >
+
+  <ion-content padding="true">
+
+    <form id="dba_list" class="list">
+      <div class="student-name">
+
+      <label>
+        <h2>Nombre del estudiante</h2>
+      </label>
+      </div>
+      <div class="col col-80 studen-name-container">
+
+
+      <div class="row">
+        <div class="col col-10 student-logo">
+
+        </div>
+        <div class="col col-90">
+            <label class="item item-input">
+              <input type="text" ng-model="data.name" placeholder="Nombre aquí">
+            </label>
+
+        </div>
+      </div>
+      </div>
+
+      <div class="col col-80 item-container">
+
+
+      <div class="row responsive-md">
+        <div class="col col-50">
+          <!--<label>
+          <span class="input-label">Nombre de la prueba</span>
+        </label>-->
+        <label class="item item-input">
+          <input type="text" ng-model="data.test_name" placeholder="Nombre de la prueba">
+        </label>
+      </div>
+      <div class="col col-50">
+        <!--<label>
+        <span class="input-label">Asignatura</span>
+      </label>-->
+      <label class="item item-select" id="page-select1">
+        <select ng-model="data.id_asignature" ng-change="getDbaData()">
+          <option value="NA">Seleccione curso...</option>
+          <option value="L">Lenguaje</option>
+          <option value="M">Matemáticas</option>
+        </select>
+      </label>
+    </div>
+
+
+  </div>
+  <div class="row responsive-md">
+    <div class="col col-50">
+      <!--<label>
+      <span class="input-label">Curso</span>
+    </label>-->
+    <label class="item item-select" >
+      <select ng-model="data.grade" ng-change="getDbaData()" >
+        <option value="0">Seleccione grado...</option>
+        <option value="3">Tercero</option>
+        <option value="5">Quinto</option>
+        <option value="7">Séptimo</option>
+        <option value="9">Noveno</option>
+        <option value="11">Undécimo</option>
+      </select>
+    </label>
+  </div>
+
+  <div class="col col-50">
+    <!--<label><span class="input-label">N° de preguntas (5-25)[{{data.max_questions}}] </span></label>-->
+    <label class="item item-select">
+      <select ng-model="data.max_questions">
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+        <option value="24">24</option>
+        <option value="25">25</option>
+      </select>
+    </label>
+  </div>
+</div>
+</div>
+</form>
+
+<div id="page-button-bar9" class="pull-right">
+  <div class="row responsive-md" id="start-button">
+    <div class="col">
+      <a id="page-button12" class="button button-positive cancel-button" ng-click="returnToMain()">
+        <span></span>
+        Cancelar
+      </a>
+    </div>
+    <div class="col">
+      <a id="page-button12" class="button button-positive random-button" ng-click="randomTest()">
+        <span></span>
+        Crear Prueba Aleatoria
+      </a>
+    </div>
+  </div>
+</div>
+</ion-content>
+</ion-view>

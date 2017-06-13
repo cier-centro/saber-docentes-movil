@@ -1,0 +1,63 @@
+<ion-view hide-nav-bar="true" id="page6">
+    <ion-content padding="true">
+        
+        <div class="principal-header" >
+            <div class="row">
+                <div class="col col-50" align="center">
+                    <img src="img/pruebas_saber.jpg" width=178 height=100  alt="Pruebas Saber">
+                </div>
+                <div class="col col-50">
+                    <h1>Pruebas Saber</h1>
+                </div>
+            </div>
+        </div>
+        
+        <div id="page-markdown1" style="color:#000000;text-align:justify;">
+            <h4>{{question.header_question}}
+            </h4>
+        </div>
+        
+        <div class="card" id="mathContainer" ng-if="question.type=='2'">
+            {{question.file}}
+        </div>
+        <div class="card" id="mathContainer" ng-if="question.type=='1'">
+            <div>
+            <button id="load" class="button button-balanced" ng-click="loadPDFAng(question.file)">Cargar lectura</button>
+            <button id="prev" class="button button-balanced" style="display:none">Pagina Anterior</button>
+            <button id="next" class="button button-balanced" style="display:none">Pagina Siguiente</button>
+            <span id="detail" style="display:none">Pagina: <span id="page_num"></span> / <span id="page_count"></span></span>
+            </div>
+            <canvas id="pdf_viewer"  style="width:100%;display:none"></canvas>
+        </div>
+        <div class="card" id="mathContainer" ng-if="question.type=='3'" >
+            <img src="contents/{{question.file}}" class="row" >
+        </div>
+
+        <form id="answer_list" class="list">
+            <ion-list>
+            <ion-radio ng-model="data.answer" ng-value="{{$index}}" ng-repeat="answer in question.answers track by $index" value="{{$index}}" name="respuesta">{{answer.header_answer}}</ion-radio>
+
+            </ion-list>
+
+        </form>
+
+        <div id="page-markdown1" style="color:#000000;text-align:justify;">
+            <!--<p>{{data.answer}} Seleccionada.
+            </p>-->
+        </div>
+
+        <div id="page-button-bar9" class="button-bar">
+            <div class="row">
+                <div class="col-33">
+                    <a id="page-button11" class="button button-assertive  button-block" ng-click="saveAndReturn()" ng-if="current_question!=0">Atrás</a>
+                </div>
+                <div class="col-33">
+                </div>
+                <div class="col-33">
+                    <a id="page-button11" class="button button-positive  button-block" ng-click="saveAndContinue()">{{option}}</a>
+                </div>
+            </div>
+        </div>
+
+    </ion-content>
+</ion-view>

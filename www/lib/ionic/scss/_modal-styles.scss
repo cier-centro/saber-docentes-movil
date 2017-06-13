@@ -1,0 +1,97 @@
+/**
+ * Modal Styles
+ * --------------------------------------------------
+ */
+.modal-backdrop-bg {
+  opacity: 0.8 !important;
+  background-color: $warning-text-color;
+}
+
+.question-option {
+  border-bottom: 1px solid $question-list-separator;
+
+  .row {
+    min-height: 50px;
+  }
+  .bullet {
+    height: 8px;
+    width: 9px;
+    display: inline-flex;
+    background: $bullet-background;
+    border-radius: 50%;
+    margin: 0 15px;
+  }
+}
+
+.modal-title-style {
+  color: white;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  margin: 0 !important;
+  padding: 0 15px;
+  text-transform: uppercase;
+  left: 0 !important;
+}
+.cancel-modal-button-style {
+  background: rgba($warning-background, 0.3);
+  border-bottom: 2px solid $informative-content-background;
+  color: $cancel-modal-text;
+  font-weight: 600;
+}
+.cancel-modal-button-hover {
+  color: $cancel-modal-text;
+  background: rgba($warning-background, 0.7);
+}
+ion-modal-view {
+  h4 {
+    text-align: left !important;
+  }
+  ion-header-bar {
+    background: $selected-option-background !important;
+    border: none !important;
+
+    h4 {
+      width: calc(100% - 50px);
+      @extend .modal-title-style;
+    }
+    button {
+      color: white !important;
+
+      &:before {
+        border: 1px solid white;
+        font-size: 24px !important;
+        padding: 0 4px !important;
+        height: 28px;
+        line-height: 110% !important;
+      }
+    }
+  }
+  ion-content {
+    margin-top: 0 !important;
+    background: white;
+    padding: 30px !important;
+
+    h4 {
+      padding: 10px 0;
+    }
+    .header_question_container {
+      .header_text {
+        &, & * {
+          font-size: 16px;
+        }
+      }
+    }
+    .cancel-modal-button {
+      @extend .cancel-modal-button-style;
+      margin-top: 25px;
+
+      &:hover {
+        @extend .cancel-modal-button-hover;
+      }
+
+      span {
+        background-position: -434px -298px;
+      }
+    }
+  }
+}
