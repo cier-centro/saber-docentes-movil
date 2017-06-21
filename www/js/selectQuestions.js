@@ -123,7 +123,7 @@ $scope.showDetail = function ($event, question) {
     return String.fromCharCode(65 + index);
   };
 
-  var template = '<ion-modal-view><ion-header-bar><h4 class="title">Pregunta {{questionToDetail.cod_question}}</h4><div class="buttons"><button class="button button-icon ion-close" ng-click="popover.hide()"></button></div></ion-header-bar><ion-content>'
+  var template = '<ion-modal-view><ion-header-bar><h4 class="title">Pregunta {{questionToDetail.cod_question}}</h4><div class="buttons"><button class="button button-icon ion-close" ng-click="popover.remove()"></button></div></ion-header-bar><ion-content>'
 
   template += '<div class="header_question_container">'
   template += '<div class="header_text" align="justify">'
@@ -138,9 +138,9 @@ $scope.showDetail = function ($event, question) {
     default:
     template += '<div class="card">'
     template += '<div class="item item-text-wrap">'
-    if ($scope.questionToDetail.type == '2') {
-      template += '{{questionToDetail.file}}'
-    } else if ($scope.questionToDetail.type == '1') {
+    var f = $scope.questionToDetail.file
+
+    if (f.match(".pdf$")) {
       template += '<div>'
       template += '<button id="load" class="button button-block load-reading-button" ng-click="loadPDFAng(questionToDetail.file)"><span></span>Cargar lectura</button>'
       template += '<button id="prev" class="button button-balanced" style="display:none">Pagina Anterior</button>'
@@ -149,8 +149,10 @@ $scope.showDetail = function ($event, question) {
       template += '</div>'
       template += '<canvas id="pdf_viewer" class="row" style="height: 800px;display:none"></canvas>'
 
-    } else if ($scope.questionToDetail.type == '3') {
+    } else if (f.match(".jpg$") || f.match(".png$")) {
       template += '<img src="contents/' + $scope.questionToDetail.file + '" class="row">'
+    }else{
+      template += '{{"$$"+questionToDetail.file+"$$"}}'
     }
     template += '</div>'
     template += '</div>'
@@ -160,12 +162,17 @@ $scope.showDetail = function ($event, question) {
   template += '<div class="question-options">'
   template += '<div ng-repeat="answer in questionToDetail.answers" class="question-option" align="justify">'
   template += '<div class="row row-center">'
+  template += '<div id="mathContainer" ng-if="answer.header_answer.match(\'.jpg$\') || answer.header_answer.match(\'.png$\')" >'
+  template += '<span class="bullet"></span><img src="contents/{{answer.header_answer}}">'
+  template += '</div>'
+  template += '<div id="mathContainer" ng-if="!answer.header_answer.match(\'.jpg$\') && !answer.header_answer.match(\'.png$\')" >'
   template += '<span class="bullet"></span>{{answer.header_answer}}'
   template += '</div>'
   template += '</div>'
   template += '</div>'
+  template += '</div>'
   template += '<div class="buttons" style="text-align: right;">'
-  template += '<button class="button cancel-modal-button" ng-click="popover.hide()"><span></span>Cancelar</button>'
+  template += '<button class="button cancel-modal-button" ng-click="popover.remove()"><span></span>Cancelar</button>'
   template += '</div>'
   template += '</ion-content></ion-modal-view>';
   $scope.popover = $ionicModal.fromTemplate(template, {

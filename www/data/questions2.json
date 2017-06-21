@@ -1,0 +1,1868 @@
+﻿
+{
+    "333": {
+        "name": "asasas",
+        "id_name": "333",
+        "questions": []
+    },
+    "3M1": {
+        "name": "Prueba reviewfsdfs",
+        "id_name": "3M1",
+        "questions": [
+            {
+                "id": 80,
+                "cod_question": "3M1#1",
+                "header_question": "Prueba review, edicion de preguntas funcioinando, otra ves, tercera,c uarta,quintaqqqqq,sextaaaa",
+                "type": "2",
+                "grade": 3,
+                "id_dba": "3M1",
+                "id_asignature": "M",
+                "file": "$$hola= 100 *50$$",
+                "answers": [
+                    {
+                        "id": 1365,
+                        "id_question": "3M1#1",
+                        "header_answer": "$$a=100$$",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1366,
+                        "id_question": "3M1#1",
+                        "header_answer": "$$a=1000$$",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1367,
+                        "id_question": "3M1#1",
+                        "header_answer": "$$a=10011$$",
+                        "is_correct": 1,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1368,
+                        "id_question": "3M1#1",
+                        "header_answer": "$$a=100222$$",
+                        "is_correct": 0,
+                        "type": "1"
+                    }
+                ]
+            },
+            {
+                "id": 81,
+                "cod_question": "3M1#2",
+                "header_question": "11111",
+                "type": "2",
+                "grade": 3,
+                "id_dba": "3M1",
+                "id_asignature": "M",
+                "file": "$$\\int_0^\\infty e^{-x^2} dx=\\frac{\\sqrt{\\pi}}{2}$$",
+                "answers": [
+                    {
+                        "id": 1369,
+                        "id_question": "3M1#2",
+                        "header_answer": "$$1 023$$",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1370,
+                        "id_question": "3M1#2",
+                        "header_answer": "$$132$$",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1371,
+                        "id_question": "3M1#2",
+                        "header_answer": "$$1 032$$",
+                        "is_correct": 1,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1372,
+                        "id_question": "3M1#2",
+                        "header_answer": "$$6000$$",
+                        "is_correct": 0,
+                        "type": "1"
+                    }
+                ]
+            },
+            {
+                "id": 82,
+                "cod_question": "3M1#3",
+                "header_question": "Observa cuántos pasos da cada niño para llegar de su casa al colegio. \r\nSi organizamos los niños, del que menos pasos da en su recorrido, al que más pasos da, obtenemos la lista:",
+                "type": "1",
+                "grade": 3,
+                "id_dba": "3M1",
+                "id_asignature": "M",
+                "file": "IMG_M3_P3.pdf",
+                "answers": [
+                    {
+                        "id": 1373,
+                        "id_question": "3M1#3",
+                        "header_answer": "Ana – Andrés – Érika – William ",
+                        "is_correct": 1,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1374,
+                        "id_question": "3M1#3",
+                        "header_answer": "William – Érika – Andrés – Ana ",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1375,
+                        "id_question": "3M1#3",
+                        "header_answer": "Érika – William – Andrés – Ana",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1376,
+                        "id_question": "3M1#3",
+                        "header_answer": "Andrés – Ana – Érika – Willliam",
+                        "is_correct": 0,
+                        "type": "1"
+                    }
+                ]
+            },
+            {
+                "id": 85,
+                "cod_question": "3M1#6",
+                "header_question": "Prueba review (6)",
+                "type": "1",
+                "grade": 3,
+                "id_dba": "3M1",
+                "id_asignature": "M",
+                "file": "IMG_M3_P1.pdf",
+                "answers": [
+                    {
+                        "id": 1385,
+                        "id_question": "3M1#6",
+                        "header_answer": "Juan, porque 1058 tiene 8 unidades y 5 es la mitad de 10. (A)",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1386,
+                        "id_question": "3M1#6",
+                        "header_answer": "Andrea, porque 368 tiene 8 unidades y 3 está en las centenas y es la mitad de 6. (B)",
+                        "is_correct": 1,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1387,
+                        "id_question": "3M1#6",
+                        "header_answer": "Esteban, porque 284 tiene 8 unidades y 2 está en las centenas y es la mitad de 4. (C)",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1388,
+                        "id_question": "3M1#6",
+                        "header_answer": "Ninguno de los letreros tiene 8 en las unidades.  (D)",
+                        "is_correct": 0,
+                        "type": "1"
+                    }
+                ]
+            },
+            {
+                "id": 86,
+                "cod_question": "3M1#7",
+                "header_question": "11111",
+                "type": "3",
+                "grade": 3,
+                "id_dba": "3M1",
+                "id_asignature": "M",
+                "file": "IMG_M3_P2.png",
+                "answers": [
+                    {
+                        "id": 1389,
+                        "id_question": "3M1#7",
+                        "header_answer": "1 023",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1390,
+                        "id_question": "3M1#7",
+                        "header_answer": "132",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1391,
+                        "id_question": "3M1#7",
+                        "header_answer": "1 032",
+                        "is_correct": 1,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1392,
+                        "id_question": "3M1#7",
+                        "header_answer": "6000",
+                        "is_correct": 0,
+                        "type": "1"
+                    }
+                ]
+            },
+            {
+                "id": 87,
+                "cod_question": "3M1#8",
+                "header_question": "Observa cuántos pasos da cada niño para llegar de su casa al colegio. \r\nSi organizamos los niños, del que menos pasos da en su recorrido, al que más pasos da, obtenemos la lista:",
+                "type": "3",
+                "grade": 3,
+                "id_dba": "3M1",
+                "id_asignature": "M",
+                "file": "IMG_M3_P4.jpg",
+                "answers": [
+                    {
+                        "id": 1393,
+                        "id_question": "3M1#8",
+                        "header_answer": "Ana – Andrés – Érika – William ",
+                        "is_correct": 1,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1394,
+                        "id_question": "3M1#8",
+                        "header_answer": "William – Érika – Andrés – Ana ",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1395,
+                        "id_question": "3M1#8",
+                        "header_answer": "Érika – William – Andrés – Ana",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1396,
+                        "id_question": "3M1#8",
+                        "header_answer": "Andrés – Ana – Érika – Willliam",
+                        "is_correct": 0,
+                        "type": "1"
+                    }
+                ]
+            },
+            {
+                "id": 90,
+                "cod_question": "3M1#11",
+                "header_question": "Prueba review (11)",
+                "type": "3",
+                "grade": 3,
+                "id_dba": "3M1",
+                "id_asignature": "M",
+                "file": "IMG_M3_P8.jpg",
+                "answers": [
+                    {
+                        "id": 1405,
+                        "id_question": "3M1#11",
+                        "header_answer": "Juan, porque 1058 tiene 8 unidades y 5 es la mitad de 10. (A)",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1406,
+                        "id_question": "3M1#11",
+                        "header_answer": "Andrea, porque 368 tiene 8 unidades y 3 está en las centenas y es la mitad de 6. (B)",
+                        "is_correct": 1,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1407,
+                        "id_question": "3M1#11",
+                        "header_answer": "Esteban, porque 284 tiene 8 unidades y 2 está en las centenas y es la mitad de 4. (C)",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1408,
+                        "id_question": "3M1#11",
+                        "header_answer": "Ninguno de los letreros tiene 8 en las unidades.  (D)",
+                        "is_correct": 0,
+                        "type": "1"
+                    }
+                ]
+            },
+            {
+                "id": 91,
+                "cod_question": "3M1#12",
+                "header_question": "11111",
+                "type": "3",
+                "grade": 3,
+                "id_dba": "3M1",
+                "id_asignature": "M",
+                "file": "IMG_M3_P2",
+                "answers": [
+                    {
+                        "id": 1409,
+                        "id_question": "3M1#12",
+                        "header_answer": "1 023",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1410,
+                        "id_question": "3M1#12",
+                        "header_answer": "132",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1411,
+                        "id_question": "3M1#12",
+                        "header_answer": "1 032",
+                        "is_correct": 1,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1412,
+                        "id_question": "3M1#12",
+                        "header_answer": "6000",
+                        "is_correct": 0,
+                        "type": "1"
+                    }
+                ]
+            },
+            {
+                "id": 92,
+                "cod_question": "3M1#13",
+                "header_question": "Observa cuántos pasos da cada niño para llegar de su casa al colegio. \nSi organizamos los niños, del que menos pasos da en su recorrido, al que más pasos da, obtenemos la lista:",
+                "type": "1",
+                "grade": 3,
+                "id_dba": "3M1",
+                "id_asignature": "M",
+                "file": "IMG_M3_P3",
+                "answers": [
+                    {
+                        "id": 1413,
+                        "id_question": "3M1#13",
+                        "header_answer": "Ana – Andrés – Érika – William ",
+                        "is_correct": 1,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1414,
+                        "id_question": "3M1#13",
+                        "header_answer": "William – Érika – Andrés – Ana ",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1415,
+                        "id_question": "3M1#13",
+                        "header_answer": "Érika – William – Andrés – Ana",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1416,
+                        "id_question": "3M1#13",
+                        "header_answer": "Andrés – Ana – Érika – Willliam",
+                        "is_correct": 0,
+                        "type": "1"
+                    }
+                ]
+            },
+            {
+                "id": 95,
+                "cod_question": "3M1#16",
+                "header_question": "Prueba review (16)",
+                "type": "1",
+                "grade": 3,
+                "id_dba": "3M1",
+                "id_asignature": "M",
+                "file": "IMG_M3_P1",
+                "answers": [
+                    {
+                        "id": 1425,
+                        "id_question": "3M1#16",
+                        "header_answer": "Juan, porque 1058 tiene 8 unidades y 5 es la mitad de 10. (A)",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1426,
+                        "id_question": "3M1#16",
+                        "header_answer": "Andrea, porque 368 tiene 8 unidades y 3 está en las centenas y es la mitad de 6. (B)",
+                        "is_correct": 1,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1427,
+                        "id_question": "3M1#16",
+                        "header_answer": "Esteban, porque 284 tiene 8 unidades y 2 está en las centenas y es la mitad de 4. (C)",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1428,
+                        "id_question": "3M1#16",
+                        "header_answer": "Ninguno de los letreros tiene 8 en las unidades.  (D)",
+                        "is_correct": 0,
+                        "type": "1"
+                    }
+                ]
+            },
+            {
+                "id": 96,
+                "cod_question": "3M1#17",
+                "header_question": "11111",
+                "type": "1",
+                "grade": 3,
+                "id_dba": "3M1",
+                "id_asignature": "M",
+                "file": "IMG_M3_P2",
+                "answers": [
+                    {
+                        "id": 1429,
+                        "id_question": "3M1#17",
+                        "header_answer": "1 023",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1430,
+                        "id_question": "3M1#17",
+                        "header_answer": "132",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1431,
+                        "id_question": "3M1#17",
+                        "header_answer": "1 032",
+                        "is_correct": 1,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1432,
+                        "id_question": "3M1#17",
+                        "header_answer": "6000",
+                        "is_correct": 0,
+                        "type": "1"
+                    }
+                ]
+            },
+            {
+                "id": 97,
+                "cod_question": "3M1#18",
+                "header_question": "Observa cuántos pasos da cada niño para llegar de su casa al colegio. \nSi organizamos los niños, del que menos pasos da en su recorrido, al que más pasos da, obtenemos la lista:",
+                "type": "1",
+                "grade": 3,
+                "id_dba": "3M1",
+                "id_asignature": "M",
+                "file": "IMG_M3_P3",
+                "answers": [
+                    {
+                        "id": 1433,
+                        "id_question": "3M1#18",
+                        "header_answer": "Ana – Andrés – Érika – William ",
+                        "is_correct": 1,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1434,
+                        "id_question": "3M1#18",
+                        "header_answer": "William – Érika – Andrés – Ana ",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1435,
+                        "id_question": "3M1#18",
+                        "header_answer": "Érika – William – Andrés – Ana",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1436,
+                        "id_question": "3M1#18",
+                        "header_answer": "Andrés – Ana – Érika – Willliam",
+                        "is_correct": 0,
+                        "type": "1"
+                    }
+                ]
+            },
+            {
+                "id": 100,
+                "cod_question": "3M1#21",
+                "header_question": "Prueba review (21)",
+                "type": "1",
+                "grade": 3,
+                "id_dba": "3M1",
+                "id_asignature": "M",
+                "file": "IMG_M3_P1",
+                "answers": [
+                    {
+                        "id": 1445,
+                        "id_question": "3M1#21",
+                        "header_answer": "Juan, porque 1058 tiene 8 unidades y 5 es la mitad de 10. (A)",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1446,
+                        "id_question": "3M1#21",
+                        "header_answer": "Andrea, porque 368 tiene 8 unidades y 3 está en las centenas y es la mitad de 6. (B)",
+                        "is_correct": 1,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1447,
+                        "id_question": "3M1#21",
+                        "header_answer": "Esteban, porque 284 tiene 8 unidades y 2 está en las centenas y es la mitad de 4. (C)",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1448,
+                        "id_question": "3M1#21",
+                        "header_answer": "Ninguno de los letreros tiene 8 en las unidades.  (D)",
+                        "is_correct": 0,
+                        "type": "1"
+                    }
+                ]
+            },
+            {
+                "id": 101,
+                "cod_question": "3M1#22",
+                "header_question": "11111",
+                "type": "1",
+                "grade": 3,
+                "id_dba": "3M1",
+                "id_asignature": "M",
+                "file": "IMG_M3_P2",
+                "answers": [
+                    {
+                        "id": 1449,
+                        "id_question": "3M1#22",
+                        "header_answer": "1 023",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1450,
+                        "id_question": "3M1#22",
+                        "header_answer": "132",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1451,
+                        "id_question": "3M1#22",
+                        "header_answer": "1 032",
+                        "is_correct": 1,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1452,
+                        "id_question": "3M1#22",
+                        "header_answer": "6000",
+                        "is_correct": 0,
+                        "type": "1"
+                    }
+                ]
+            },
+            {
+                "id": 102,
+                "cod_question": "3M1#23",
+                "header_question": "Observa cuántos pasos da cada niño para llegar de su casa al colegio. \nSi organizamos los niños, del que menos pasos da en su recorrido, al que más pasos da, obtenemos la lista:",
+                "type": "1",
+                "grade": 3,
+                "id_dba": "3M1",
+                "id_asignature": "M",
+                "file": "IMG_M3_P3",
+                "answers": [
+                    {
+                        "id": 1453,
+                        "id_question": "3M1#23",
+                        "header_answer": "Ana – Andrés – Érika – William ",
+                        "is_correct": 1,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1454,
+                        "id_question": "3M1#23",
+                        "header_answer": "William – Érika – Andrés – Ana ",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1455,
+                        "id_question": "3M1#23",
+                        "header_answer": "Érika – William – Andrés – Ana",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1456,
+                        "id_question": "3M1#23",
+                        "header_answer": "Andrés – Ana – Érika – Willliam",
+                        "is_correct": 0,
+                        "type": "1"
+                    }
+                ]
+            },
+            {
+                "id": 105,
+                "cod_question": "3M1#26",
+                "header_question": "Prueba review (26)",
+                "type": "1",
+                "grade": 3,
+                "id_dba": "3M1",
+                "id_asignature": "M",
+                "file": "IMG_M3_P1",
+                "answers": [
+                    {
+                        "id": 1465,
+                        "id_question": "3M1#26",
+                        "header_answer": "Juan, porque 1058 tiene 8 unidades y 5 es la mitad de 10. (A)",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1466,
+                        "id_question": "3M1#26",
+                        "header_answer": "Andrea, porque 368 tiene 8 unidades y 3 está en las centenas y es la mitad de 6. (B)",
+                        "is_correct": 1,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1467,
+                        "id_question": "3M1#26",
+                        "header_answer": "Esteban, porque 284 tiene 8 unidades y 2 está en las centenas y es la mitad de 4. (C)",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1468,
+                        "id_question": "3M1#26",
+                        "header_answer": "Ninguno de los letreros tiene 8 en las unidades.  (D)",
+                        "is_correct": 0,
+                        "type": "1"
+                    }
+                ]
+            },
+            {
+                "id": 106,
+                "cod_question": "3M1#27",
+                "header_question": "11111",
+                "type": "1",
+                "grade": 3,
+                "id_dba": "3M1",
+                "id_asignature": "M",
+                "file": "IMG_M3_P2",
+                "answers": [
+                    {
+                        "id": 1469,
+                        "id_question": "3M1#27",
+                        "header_answer": "1 023",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1470,
+                        "id_question": "3M1#27",
+                        "header_answer": "132",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1471,
+                        "id_question": "3M1#27",
+                        "header_answer": "1 032",
+                        "is_correct": 1,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1472,
+                        "id_question": "3M1#27",
+                        "header_answer": "6000",
+                        "is_correct": 0,
+                        "type": "1"
+                    }
+                ]
+            },
+            {
+                "id": 107,
+                "cod_question": "3M1#28",
+                "header_question": "Observa cuántos pasos da cada niño para llegar de su casa al colegio. \nSi organizamos los niños, del que menos pasos da en su recorrido, al que más pasos da, obtenemos la lista:",
+                "type": "1",
+                "grade": 3,
+                "id_dba": "3M1",
+                "id_asignature": "M",
+                "file": "IMG_M3_P3",
+                "answers": [
+                    {
+                        "id": 1473,
+                        "id_question": "3M1#28",
+                        "header_answer": "Ana – Andrés – Érika – William ",
+                        "is_correct": 1,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1474,
+                        "id_question": "3M1#28",
+                        "header_answer": "William – Érika – Andrés – Ana ",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1475,
+                        "id_question": "3M1#28",
+                        "header_answer": "Érika – William – Andrés – Ana",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1476,
+                        "id_question": "3M1#28",
+                        "header_answer": "Andrés – Ana – Érika – Willliam",
+                        "is_correct": 0,
+                        "type": "1"
+                    }
+                ]
+            },
+            {
+                "id": 110,
+                "cod_question": "3M1#31",
+                "header_question": "Prueba review",
+                "type": "1",
+                "grade": 3,
+                "id_dba": "3M1",
+                "id_asignature": "M",
+                "file": "IMG_M3_P1",
+                "answers": [
+                    {
+                        "id": 1485,
+                        "id_question": "3M1#31",
+                        "header_answer": "Juan, porque 1058 tiene 8 unidades y 5 es la mitad de 10.",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1486,
+                        "id_question": "3M1#31",
+                        "header_answer": "Andrea, porque 368 tiene 8 unidades y 3 está en las centenas y es la mitad de 6.",
+                        "is_correct": 1,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1487,
+                        "id_question": "3M1#31",
+                        "header_answer": "Esteban, porque 284 tiene 8 unidades y 2 está en las centenas y es la mitad de 4.",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1488,
+                        "id_question": "3M1#31",
+                        "header_answer": "Ninguno de los letreros tiene 8 en las unidades. ",
+                        "is_correct": 0,
+                        "type": "1"
+                    }
+                ]
+            },
+            {
+                "id": 111,
+                "cod_question": "3M1#32",
+                "header_question": "11111",
+                "type": "1",
+                "grade": 3,
+                "id_dba": "3M1",
+                "id_asignature": "M",
+                "file": "IMG_M3_P2",
+                "answers": [
+                    {
+                        "id": 1489,
+                        "id_question": "3M1#32",
+                        "header_answer": "1 023",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1490,
+                        "id_question": "3M1#32",
+                        "header_answer": "132",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1491,
+                        "id_question": "3M1#32",
+                        "header_answer": "1 032",
+                        "is_correct": 1,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1492,
+                        "id_question": "3M1#32",
+                        "header_answer": "6000",
+                        "is_correct": 0,
+                        "type": "1"
+                    }
+                ]
+            },
+            {
+                "id": 112,
+                "cod_question": "3M1#33",
+                "header_question": "Observa cuántos pasos da cada niño para llegar de su casa al colegio. \nSi organizamos los niños, del que menos pasos da en su recorrido, al que más pasos da, obtenemos la lista:",
+                "type": "1",
+                "grade": 3,
+                "id_dba": "3M1",
+                "id_asignature": "M",
+                "file": "IMG_M3_P3",
+                "answers": [
+                    {
+                        "id": 1493,
+                        "id_question": "3M1#33",
+                        "header_answer": "Ana – Andrés – Érika – William ",
+                        "is_correct": 1,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1494,
+                        "id_question": "3M1#33",
+                        "header_answer": "William – Érika – Andrés – Ana ",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1495,
+                        "id_question": "3M1#33",
+                        "header_answer": "Érika – William – Andrés – Ana",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1496,
+                        "id_question": "3M1#33",
+                        "header_answer": "Andrés – Ana – Érika – Willliam",
+                        "is_correct": 0,
+                        "type": "1"
+                    }
+                ]
+            },
+            {
+                "id": 128,
+                "cod_question": "3M1",
+                "header_question": "fhghjhfg",
+                "type": "1",
+                "grade": 3,
+                "id_dba": "3M1",
+                "id_asignature": "M",
+                "file": null,
+                "answers": [
+                    {
+                        "id": 1529,
+                        "id_question": "3M1",
+                        "header_answer": "jhgjhjhgjh",
+                        "is_correct": 0,
+                        "type": null
+                    },
+                    {
+                        "id": 1530,
+                        "id_question": "3M1",
+                        "header_answer": "ghjh",
+                        "is_correct": 1,
+                        "type": null
+                    },
+                    {
+                        "id": 1531,
+                        "id_question": "3M1",
+                        "header_answer": "ghjggf",
+                        "is_correct": 0,
+                        "type": null
+                    },
+                    {
+                        "id": 1532,
+                        "id_question": "3M1",
+                        "header_answer": "hjhggh",
+                        "is_correct": 0,
+                        "type": null
+                    }
+                ]
+            }
+        ]
+    },
+    "3M10": {
+        "name": "Ubica lugares en mapas y describe trayectos. Por ejemplo, ubica la iglesia en una esquina de la calle 244 con la carrera 18, y describe distintas formas de llegar del punto negro a la iglesia.",
+        "id_name": "3M10",
+        "questions": [
+            {
+                "id": 129,
+                "cod_question": "3M10#",
+                "header_question": "HOLA PRUEBA",
+                "type": "1",
+                "grade": 3,
+                "id_dba": "3M10",
+                "id_asignature": "M",
+                "file": null,
+                "answers": [
+                    {
+                        "id": 1533,
+                        "id_question": "3M10#",
+                        "header_answer": "H",
+                        "is_correct": 0,
+                        "type": null
+                    },
+                    {
+                        "id": 1534,
+                        "id_question": "3M10#",
+                        "header_answer": "O",
+                        "is_correct": 0,
+                        "type": null
+                    },
+                    {
+                        "id": 1535,
+                        "id_question": "3M10#",
+                        "header_answer": "L",
+                        "is_correct": 0,
+                        "type": null
+                    },
+                    {
+                        "id": 1536,
+                        "id_question": "3M10#",
+                        "header_answer": "A",
+                        "is_correct": 1,
+                        "type": null
+                    }
+                ]
+            }
+        ]
+    },
+    "3M100": {
+        "name": "HOLA PRUEBA DE DBA",
+        "id_name": "3M100",
+        "questions": []
+    },
+    "3M101": {
+        "name": "PRUEBA 2",
+        "id_name": "3M101",
+        "questions": []
+    },
+    "3M103": {
+        "name": "PRUEBA 3",
+        "id_name": "3M103",
+        "questions": []
+    },
+    "3M11": {
+        "name": "Mide y estima longitud, distancia, área, capacidad, peso, duración, etc., en objetos y\/o eventos. Por ejemplo: Mide la capacidad de un balde usando una taza y concluye \"La capacidad del balde es de casi 23 tazas\", o mide la altura de su hermano usando un metro y concluye \"Mi hermano mide un metro y medio\". \nIdentifica qué instrumentos de medición debe utilizar según el caso (una balanza para el peso, una regla para la longitud, un reloj para el tiempo, etc.).",
+        "id_name": "3M11",
+        "questions": []
+    },
+    "3M12": {
+        "name": "asfadfsadfasdfasdf",
+        "id_name": "3M12",
+        "questions": []
+    },
+    "3M13": {
+        "name": "Usa correctamente las expresiones posible, imposible, muy posible y poco posible. Por ejemplo, “Es imposible obtener 18 al lanzar un dado una vez” o “Si en la clase hay 3 niñas y 20 niños, es poco posible que una niña se gane la rifa”.",
+        "id_name": "3M13",
+        "questions": []
+    },
+    "3M14": {
+        "name": "Puede describir variaciones. Por ejemplo: Si escucha\nuna canción puede decir algo como “Al ﬁnal, el volumen\nfue bajando” o “El ritmo va cada vez más rápido”.",
+        "id_name": "3M14",
+        "questions": []
+    },
+    "3M15": {
+        "name": "Reconoce y propone patrones con números o ﬁguras\ngeométricas. Por ejemplo: Descubre que el patrón es “multiplicar por 2” y deduce que el siguiente término es 192.",
+        "id_name": "3M15",
+        "questions": []
+    },
+    "3M16": {
+        "name": "azdasdasdas",
+        "id_name": "3M16",
+        "questions": []
+    },
+    "3M2": {
+        "name": "Resuelve distintos tipos de problemas que involucren sumas, restas, multiplicaciones y divisiones.",
+        "id_name": "3M2",
+        "questions": [
+            {
+                "id": 83,
+                "cod_question": "3M2#4",
+                "header_question": "Lee con atención el siguiente problema. Luego, selecciona la respuesta correcta. \r\nDon Leonardo gana $ 678 500 mensuales. En el mes de enero pagó $ 185 600 en servicios, $ 97 350 en mercado y $ 39 850 en entretenimiento; lo que le sobró, lo destinó para ahorro. \r\n¿Cuánto dinero Ahorró Leonardo en enero?",
+                "type": "1",
+                "grade": 3,
+                "id_dba": "3M2",
+                "id_asignature": "M",
+                "file": "prueba2.pdf",
+                "answers": [
+                    {
+                        "id": 1377,
+                        "id_question": "3M2#4",
+                        "header_answer": "$ 356 300 ",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1378,
+                        "id_question": "3M2#4",
+                        "header_answer": "$ 355 300",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1379,
+                        "id_question": "3M2#4",
+                        "header_answer": "$ 356 700",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1380,
+                        "id_question": "3M2#4",
+                        "header_answer": "$ 355 700",
+                        "is_correct": 1,
+                        "type": "1"
+                    }
+                ]
+            },
+            {
+                "id": 84,
+                "cod_question": "3M2#5",
+                "header_question": "Lee con atención el siguiente problema. Luego, selecciona la respuesta correcta.\nEstela tiene tres paquetes de golosinas para repartir en partes iguales entre sus seis sobrinos. Si tiene 60 colombinas, 24 galletas y 72 chocolatinas. Los dulces que le corresponden a cada sobrino, son:",
+                "type": "1",
+                "grade": 3,
+                "id_dba": "3M2",
+                "id_asignature": "M",
+                "file": "NA",
+                "answers": [
+                    {
+                        "id": 1381,
+                        "id_question": "3M2#5",
+                        "header_answer": "0",
+                        "is_correct": 1,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1382,
+                        "id_question": "3M2#5",
+                        "header_answer": "6 colombinas, 4 galletas y 12 chocolatinas.",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1383,
+                        "id_question": "3M2#5",
+                        "header_answer": "1 colombina, 24 galletas y 11 chocolatinas.",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1384,
+                        "id_question": "3M2#5",
+                        "header_answer": "10  colombinas, 10 galletas y 10 chocolatinas. ",
+                        "is_correct": 0,
+                        "type": "1"
+                    }
+                ]
+            },
+            {
+                "id": 88,
+                "cod_question": "3M2#9",
+                "header_question": "Lee con atención el siguiente problema. Luego, selecciona la respuesta correcta. \nDon Leonardo gana $ 678 500 mensuales. En el mes de enero pagó $ 185 600 en servicios, $ 97 350 en mercado y $ 39 850 en entretenimiento; lo que le sobró, lo destinó para ahorro. \n¿Cuánto dinero Ahorró Leonardo en enero?",
+                "type": "1",
+                "grade": 3,
+                "id_dba": "3M2",
+                "id_asignature": "M",
+                "file": "NA",
+                "answers": [
+                    {
+                        "id": 1397,
+                        "id_question": "3M2#9",
+                        "header_answer": "$ 356 300 ",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1398,
+                        "id_question": "3M2#9",
+                        "header_answer": "$ 355 300",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1399,
+                        "id_question": "3M2#9",
+                        "header_answer": "$ 356 700",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1400,
+                        "id_question": "3M2#9",
+                        "header_answer": "$ 355 700",
+                        "is_correct": 1,
+                        "type": "1"
+                    }
+                ]
+            },
+            {
+                "id": 89,
+                "cod_question": "3M2#10",
+                "header_question": "Lee con atención el siguiente problema. Luego, selecciona la respuesta correcta.\nEstela tiene tres paquetes de golosinas para repartir en partes iguales entre sus seis sobrinos. Si tiene 60 colombinas, 24 galletas y 72 chocolatinas. Los dulces que le corresponden a cada sobrino, son:",
+                "type": "1",
+                "grade": 3,
+                "id_dba": "3M2",
+                "id_asignature": "M",
+                "file": "NA",
+                "answers": [
+                    {
+                        "id": 1401,
+                        "id_question": "3M2#10",
+                        "header_answer": "0",
+                        "is_correct": 1,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1402,
+                        "id_question": "3M2#10",
+                        "header_answer": "6 colombinas, 4 galletas y 12 chocolatinas.",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1403,
+                        "id_question": "3M2#10",
+                        "header_answer": "1 colombina, 24 galletas y 11 chocolatinas.",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1404,
+                        "id_question": "3M2#10",
+                        "header_answer": "10  colombinas, 10 galletas y 10 chocolatinas. ",
+                        "is_correct": 0,
+                        "type": "1"
+                    }
+                ]
+            },
+            {
+                "id": 93,
+                "cod_question": "3M2#14",
+                "header_question": "Lee con atención el siguiente problema. Luego, selecciona la respuesta correcta. \nDon Leonardo gana $ 678 500 mensuales. En el mes de enero pagó $ 185 600 en servicios, $ 97 350 en mercado y $ 39 850 en entretenimiento; lo que le sobró, lo destinó para ahorro. \n¿Cuánto dinero Ahorró Leonardo en enero?",
+                "type": "1",
+                "grade": 3,
+                "id_dba": "3M2",
+                "id_asignature": "M",
+                "file": "NA",
+                "answers": [
+                    {
+                        "id": 1417,
+                        "id_question": "3M2#14",
+                        "header_answer": "$ 356 300 ",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1418,
+                        "id_question": "3M2#14",
+                        "header_answer": "$ 355 300",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1419,
+                        "id_question": "3M2#14",
+                        "header_answer": "$ 356 700",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1420,
+                        "id_question": "3M2#14",
+                        "header_answer": "$ 355 700",
+                        "is_correct": 1,
+                        "type": "1"
+                    }
+                ]
+            },
+            {
+                "id": 94,
+                "cod_question": "3M2#15",
+                "header_question": "Lee con atención el siguiente problema. Luego, selecciona la respuesta correcta.\nEstela tiene tres paquetes de golosinas para repartir en partes iguales entre sus seis sobrinos. Si tiene 60 colombinas, 24 galletas y 72 chocolatinas. Los dulces que le corresponden a cada sobrino, son:",
+                "type": "1",
+                "grade": 3,
+                "id_dba": "3M2",
+                "id_asignature": "M",
+                "file": "NA",
+                "answers": [
+                    {
+                        "id": 1421,
+                        "id_question": "3M2#15",
+                        "header_answer": "0",
+                        "is_correct": 1,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1422,
+                        "id_question": "3M2#15",
+                        "header_answer": "6 colombinas, 4 galletas y 12 chocolatinas.",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1423,
+                        "id_question": "3M2#15",
+                        "header_answer": "1 colombina, 24 galletas y 11 chocolatinas.",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1424,
+                        "id_question": "3M2#15",
+                        "header_answer": "10  colombinas, 10 galletas y 10 chocolatinas. ",
+                        "is_correct": 0,
+                        "type": "1"
+                    }
+                ]
+            },
+            {
+                "id": 98,
+                "cod_question": "3M2#19",
+                "header_question": "Lee con atención el siguiente problema. Luego, selecciona la respuesta correcta. \nDon Leonardo gana $ 678 500 mensuales. En el mes de enero pagó $ 185 600 en servicios, $ 97 350 en mercado y $ 39 850 en entretenimiento; lo que le sobró, lo destinó para ahorro. \n¿Cuánto dinero Ahorró Leonardo en enero?",
+                "type": "1",
+                "grade": 3,
+                "id_dba": "3M2",
+                "id_asignature": "M",
+                "file": "NA",
+                "answers": [
+                    {
+                        "id": 1437,
+                        "id_question": "3M2#19",
+                        "header_answer": "$ 356 300 ",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1438,
+                        "id_question": "3M2#19",
+                        "header_answer": "$ 355 300",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1439,
+                        "id_question": "3M2#19",
+                        "header_answer": "$ 356 700",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1440,
+                        "id_question": "3M2#19",
+                        "header_answer": "$ 355 700",
+                        "is_correct": 1,
+                        "type": "1"
+                    }
+                ]
+            },
+            {
+                "id": 99,
+                "cod_question": "3M2#20",
+                "header_question": "Lee con atención el siguiente problema. Luego, selecciona la respuesta correcta.\nEstela tiene tres paquetes de golosinas para repartir en partes iguales entre sus seis sobrinos. Si tiene 60 colombinas, 24 galletas y 72 chocolatinas. Los dulces que le corresponden a cada sobrino, son:",
+                "type": "1",
+                "grade": 3,
+                "id_dba": "3M2",
+                "id_asignature": "M",
+                "file": "NA",
+                "answers": [
+                    {
+                        "id": 1441,
+                        "id_question": "3M2#20",
+                        "header_answer": "0",
+                        "is_correct": 1,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1442,
+                        "id_question": "3M2#20",
+                        "header_answer": "6 colombinas, 4 galletas y 12 chocolatinas.",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1443,
+                        "id_question": "3M2#20",
+                        "header_answer": "1 colombina, 24 galletas y 11 chocolatinas.",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1444,
+                        "id_question": "3M2#20",
+                        "header_answer": "10  colombinas, 10 galletas y 10 chocolatinas. ",
+                        "is_correct": 0,
+                        "type": "1"
+                    }
+                ]
+            },
+            {
+                "id": 103,
+                "cod_question": "3M2#24",
+                "header_question": "Lee con atención el siguiente problema. Luego, selecciona la respuesta correcta. \nDon Leonardo gana $ 678 500 mensuales. En el mes de enero pagó $ 185 600 en servicios, $ 97 350 en mercado y $ 39 850 en entretenimiento; lo que le sobró, lo destinó para ahorro. \n¿Cuánto dinero Ahorró Leonardo en enero?",
+                "type": "1",
+                "grade": 3,
+                "id_dba": "3M2",
+                "id_asignature": "M",
+                "file": "NA",
+                "answers": [
+                    {
+                        "id": 1457,
+                        "id_question": "3M2#24",
+                        "header_answer": "$ 356 300 ",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1458,
+                        "id_question": "3M2#24",
+                        "header_answer": "$ 355 300",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1459,
+                        "id_question": "3M2#24",
+                        "header_answer": "$ 356 700",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1460,
+                        "id_question": "3M2#24",
+                        "header_answer": "$ 355 700",
+                        "is_correct": 1,
+                        "type": "1"
+                    }
+                ]
+            },
+            {
+                "id": 104,
+                "cod_question": "3M2#25",
+                "header_question": "Lee con atención el siguiente problema. Luego, selecciona la respuesta correcta.\nEstela tiene tres paquetes de golosinas para repartir en partes iguales entre sus seis sobrinos. Si tiene 60 colombinas, 24 galletas y 72 chocolatinas. Los dulces que le corresponden a cada sobrino, son:",
+                "type": "1",
+                "grade": 3,
+                "id_dba": "3M2",
+                "id_asignature": "M",
+                "file": "NA",
+                "answers": [
+                    {
+                        "id": 1461,
+                        "id_question": "3M2#25",
+                        "header_answer": "0",
+                        "is_correct": 1,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1462,
+                        "id_question": "3M2#25",
+                        "header_answer": "6 colombinas, 4 galletas y 12 chocolatinas.",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1463,
+                        "id_question": "3M2#25",
+                        "header_answer": "1 colombina, 24 galletas y 11 chocolatinas.",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1464,
+                        "id_question": "3M2#25",
+                        "header_answer": "10  colombinas, 10 galletas y 10 chocolatinas. ",
+                        "is_correct": 0,
+                        "type": "1"
+                    }
+                ]
+            },
+            {
+                "id": 108,
+                "cod_question": "3M2#29",
+                "header_question": "Lee con atención el siguiente problema. Luego, selecciona la respuesta correcta. \nDon Leonardo gana $ 678 500 mensuales. En el mes de enero pagó $ 185 600 en servicios, $ 97 350 en mercado y $ 39 850 en entretenimiento; lo que le sobró, lo destinó para ahorro. \n¿Cuánto dinero Ahorró Leonardo en enero?",
+                "type": "1",
+                "grade": 3,
+                "id_dba": "3M2",
+                "id_asignature": "M",
+                "file": "NA",
+                "answers": [
+                    {
+                        "id": 1477,
+                        "id_question": "3M2#29",
+                        "header_answer": "$ 356 300 ",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1478,
+                        "id_question": "3M2#29",
+                        "header_answer": "$ 355 300",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1479,
+                        "id_question": "3M2#29",
+                        "header_answer": "$ 356 700",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1480,
+                        "id_question": "3M2#29",
+                        "header_answer": "$ 355 700",
+                        "is_correct": 1,
+                        "type": "1"
+                    }
+                ]
+            },
+            {
+                "id": 109,
+                "cod_question": "3M2#30",
+                "header_question": "Lee con atención el siguiente problema. Luego, selecciona la respuesta correcta.\nEstela tiene tres paquetes de golosinas para repartir en partes iguales entre sus seis sobrinos. Si tiene 60 colombinas, 24 galletas y 72 chocolatinas. Los dulces que le corresponden a cada sobrino, son:",
+                "type": "1",
+                "grade": 3,
+                "id_dba": "3M2",
+                "id_asignature": "M",
+                "file": "NA",
+                "answers": [
+                    {
+                        "id": 1481,
+                        "id_question": "3M2#30",
+                        "header_answer": "0",
+                        "is_correct": 1,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1482,
+                        "id_question": "3M2#30",
+                        "header_answer": "6 colombinas, 4 galletas y 12 chocolatinas.",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1483,
+                        "id_question": "3M2#30",
+                        "header_answer": "1 colombina, 24 galletas y 11 chocolatinas.",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1484,
+                        "id_question": "3M2#30",
+                        "header_answer": "10  colombinas, 10 galletas y 10 chocolatinas. ",
+                        "is_correct": 0,
+                        "type": "1"
+                    }
+                ]
+            },
+            {
+                "id": 113,
+                "cod_question": "3M2#34",
+                "header_question": "Lee con atención el siguiente problema. Luego, selecciona la respuesta correcta. \nDon Leonardo gana $ 678 500 mensuales. En el mes de enero pagó $ 185 600 en servicios, $ 97 350 en mercado y $ 39 850 en entretenimiento; lo que le sobró, lo destinó para ahorro. \n¿Cuánto dinero Ahorró Leonardo en enero?",
+                "type": "1",
+                "grade": 3,
+                "id_dba": "3M2",
+                "id_asignature": "M",
+                "file": "NA",
+                "answers": [
+                    {
+                        "id": 1497,
+                        "id_question": "3M2#34",
+                        "header_answer": "$ 356 300 ",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1498,
+                        "id_question": "3M2#34",
+                        "header_answer": "$ 355 300",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1499,
+                        "id_question": "3M2#34",
+                        "header_answer": "$ 356 700",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1500,
+                        "id_question": "3M2#34",
+                        "header_answer": "$ 355 700",
+                        "is_correct": 1,
+                        "type": "1"
+                    }
+                ]
+            },
+            {
+                "id": 114,
+                "cod_question": "3M2#35",
+                "header_question": "Lee con atención el siguiente problema. Luego, selecciona la respuesta correcta.\nEstela tiene tres paquetes de golosinas para repartir en partes iguales entre sus seis sobrinos. Si tiene 60 colombinas, 24 galletas y 72 chocolatinas. Los dulces que le corresponden a cada sobrino, son:",
+                "type": "1",
+                "grade": 3,
+                "id_dba": "3M2",
+                "id_asignature": "M",
+                "file": "NA",
+                "answers": [
+                    {
+                        "id": 1501,
+                        "id_question": "3M2#35",
+                        "header_answer": "0",
+                        "is_correct": 1,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1502,
+                        "id_question": "3M2#35",
+                        "header_answer": "6 colombinas, 4 galletas y 12 chocolatinas.",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1503,
+                        "id_question": "3M2#35",
+                        "header_answer": "1 colombina, 24 galletas y 11 chocolatinas.",
+                        "is_correct": 0,
+                        "type": "1"
+                    },
+                    {
+                        "id": 1504,
+                        "id_question": "3M2#35",
+                        "header_answer": "10  colombinas, 10 galletas y 10 chocolatinas. ",
+                        "is_correct": 0,
+                        "type": "1"
+                    }
+                ]
+            },
+            {
+                "id": 115,
+                "cod_question": "3M2#36",
+                "header_question": "4",
+                "type": "1",
+                "grade": 3,
+                "id_dba": "3M2",
+                "id_asignature": "M",
+                "file": "4",
+                "answers": [
+                    {
+                        "id": 1505,
+                        "id_question": "3M2#36",
+                        "header_answer": "5",
+                        "is_correct": 0,
+                        "type": "4"
+                    },
+                    {
+                        "id": 1506,
+                        "id_question": "3M2#36",
+                        "header_answer": "5",
+                        "is_correct": 1,
+                        "type": "4"
+                    },
+                    {
+                        "id": 1507,
+                        "id_question": "3M2#36",
+                        "header_answer": "5",
+                        "is_correct": 0,
+                        "type": "4"
+                    },
+                    {
+                        "id": 1508,
+                        "id_question": "3M2#36",
+                        "header_answer": "5",
+                        "is_correct": 0,
+                        "type": "4"
+                    }
+                ]
+            }
+        ]
+    },
+    "3M3": {
+        "name": "Entiende que dividir corresponde a hacer repartos equitativos. Divide números de hasta tres cifras entre un número de una cifra en casos simples en los que se puede hacer un reparto equitativo sin que sobre nada. ",
+        "id_name": "3M3",
+        "questions": []
+    },
+    "3M4": {
+        "name": "Multiplica números de hasta tres cifras por un número de una cifra utilizando diversas estrategias. Por ejemplo, 4×550.",
+        "id_name": "3M4",
+        "questions": []
+    },
+    "3M5": {
+        "name": "Comprende la relación entre la multiplicación y la división. Por ejemplo: Para encontrar 32÷8, encuentra el número que al ser multiplicado por 8 da 32.",
+        "id_name": "3M5",
+        "questions": []
+    },
+    "3M6": {
+        "name": "Comprende el uso de fracciones para describir situaciones en las que una unidad se divide en partes iguales. Por ejemplo, 5 porciones de una torta partida en 12 pedazos iguales corresponden a cinco doceavos de torta.",
+        "id_name": "3M6",
+        "questions": []
+    },
+    "3M7": {
+        "name": "Compara fracciones sencillas y reconoce fracciones que aunque se vean distintas, representan la misma cantidad como un medio (1\/2) y dos cuartos  (2\/4).",
+        "id_name": "3M7",
+        "questions": [
+            {
+                "id": 116,
+                "cod_question": "3M7#21",
+                "header_question": "Al organizar las siguientes fracciones de menor a mayor se obtiene:",
+                "type": "2",
+                "grade": 3,
+                "id_dba": "3M7",
+                "id_asignature": "M",
+                "file": "\\frac{4}{12};\\frac{13}{12};\\frac{3}{12};\\frac{6}{12};\\frac{8}{12}",
+                "answers": [
+                    {
+                        "id": 1509,
+                        "id_question": "3M7#21",
+                        "header_answer": "\\frac{13}{12};\\frac{8}{12};\\frac{6}{12};\\frac{4}{12};\\frac{3}{12}",
+                        "is_correct": 0,
+                        "type": "2"
+                    },
+                    {
+                        "id": 1510,
+                        "id_question": "3M7#21",
+                        "header_answer": "\\frac{3}{12};\\frac{4}{12};\\frac{6}{12};\\frac{8}{12};\\frac{13}{12}",
+                        "is_correct": 1,
+                        "type": "2"
+                    },
+                    {
+                        "id": 1511,
+                        "id_question": "3M7#21",
+                        "header_answer": "\\frac{12}{13};\\frac{12}{8};\\frac{12}{6};\\frac{12}{4};\\frac{12}{3}",
+                        "is_correct": 0,
+                        "type": "2"
+                    },
+                    {
+                        "id": 1512,
+                        "id_question": "3M7#21",
+                        "header_answer": "\\frac{12}{3};\\frac{12}{4};\\frac{12}{6};\\frac{12}{8};\\frac{12}{13}",
+                        "is_correct": 0,
+                        "type": "2"
+                    }
+                ]
+            },
+            {
+                "id": 117,
+                "cod_question": "3M7#22",
+                "header_question": "Una fracción equivalente a \nes:",
+                "type": "2",
+                "grade": 3,
+                "id_dba": "3M7",
+                "id_asignature": "M",
+                "file": "\\frac{9}{12}",
+                "answers": [
+                    {
+                        "id": 1513,
+                        "id_question": "3M7#22",
+                        "header_answer": "\\frac{3}{3}",
+                        "is_correct": 0,
+                        "type": "2"
+                    },
+                    {
+                        "id": 1514,
+                        "id_question": "3M7#22",
+                        "header_answer": "\\frac{4}{6}",
+                        "is_correct": 0,
+                        "type": "2"
+                    },
+                    {
+                        "id": 1515,
+                        "id_question": "3M7#22",
+                        "header_answer": "\\frac{3}{6}",
+                        "is_correct": 0,
+                        "type": "2"
+                    },
+                    {
+                        "id": 1516,
+                        "id_question": "3M7#22",
+                        "header_answer": "\\frac{3}{4}",
+                        "is_correct": 1,
+                        "type": "2"
+                    }
+                ]
+            },
+            {
+                "id": 118,
+                "cod_question": "3M7#23",
+                "header_question": "Una fracción equivalente a \nes:",
+                "type": "2",
+                "grade": 3,
+                "id_dba": "3M7",
+                "id_asignature": "M",
+                "file": "\\frac{1}{2}",
+                "answers": [
+                    {
+                        "id": 1517,
+                        "id_question": "3M7#23",
+                        "header_answer": "\\frac{3}{4}",
+                        "is_correct": 0,
+                        "type": "2"
+                    },
+                    {
+                        "id": 1518,
+                        "id_question": "3M7#23",
+                        "header_answer": "\\frac{1}{4}",
+                        "is_correct": 0,
+                        "type": "2"
+                    },
+                    {
+                        "id": 1519,
+                        "id_question": "3M7#23",
+                        "header_answer": "\\frac{5}{10}",
+                        "is_correct": 1,
+                        "type": "2"
+                    },
+                    {
+                        "id": 1520,
+                        "id_question": "3M7#23",
+                        "header_answer": "\\frac{2}{6}",
+                        "is_correct": 0,
+                        "type": "2"
+                    }
+                ]
+            }
+        ]
+    },
+    "3M8": {
+        "name": "Comprende el significado de la igualdad y utiliza el símbolo \" = \" de forma correcta. ",
+        "id_name": "3M8",
+        "questions": []
+    },
+    "3M9": {
+        "name": "Puede ampliar o reducir ﬁguras en una cuadrícula; identifica figuras y objetos simétricos en contextos como la geometría, el arte, el diseño y la naturaleza; Hace dibujos con ejes de simetría. ",
+        "id_name": "3M9",
+        "questions": [
+            {
+                "id": 126,
+                "cod_question": "3M9#58",
+                "header_question": "hgjkjhhhhjkj",
+                "type": "1",
+                "grade": 3,
+                "id_dba": "3M9",
+                "id_asignature": "M",
+                "file": null,
+                "answers": [
+                    {
+                        "id": 1521,
+                        "id_question": "3M9#58",
+                        "header_answer": "respuesta numero 1",
+                        "is_correct": 0,
+                        "type": null
+                    },
+                    {
+                        "id": 1522,
+                        "id_question": "3M9#58",
+                        "header_answer": "respuesta numero 2",
+                        "is_correct": 1,
+                        "type": null
+                    },
+                    {
+                        "id": 1523,
+                        "id_question": "3M9#58",
+                        "header_answer": "respuesta numero 3",
+                        "is_correct": 0,
+                        "type": null
+                    },
+                    {
+                        "id": 1524,
+                        "id_question": "3M9#58",
+                        "header_answer": "respuesta numero 5",
+                        "is_correct": 0,
+                        "type": null
+                    }
+                ]
+            },
+            {
+                "id": 127,
+                "cod_question": "3M9#90",
+                "header_question": "dfdrtewrt",
+                "type": "1",
+                "grade": 3,
+                "id_dba": "3M9",
+                "id_asignature": "M",
+                "file": null,
+                "answers": [
+                    {
+                        "id": 1525,
+                        "id_question": "3M9#90",
+                        "header_answer": "respuesta numero 1",
+                        "is_correct": 0,
+                        "type": null
+                    },
+                    {
+                        "id": 1526,
+                        "id_question": "3M9#90",
+                        "header_answer": "5",
+                        "is_correct": 1,
+                        "type": null
+                    },
+                    {
+                        "id": 1527,
+                        "id_question": "3M9#90",
+                        "header_answer": "ert",
+                        "is_correct": 0,
+                        "type": null
+                    },
+                    {
+                        "id": 1528,
+                        "id_question": "3M9#90",
+                        "header_answer": "respuesta numero 5",
+                        "is_correct": 0,
+                        "type": null
+                    }
+                ]
+            }
+        ]
+    },
+    "aa": {
+        "name": "qq",
+        "id_name": "aa",
+        "questions": []
+    },
+    "aaa": {
+        "name": "qq",
+        "id_name": "aaa",
+        "questions": []
+    },
+    "asq": {
+        "name": "qaq",
+        "id_name": "asq",
+        "questions": []
+    },
+    "az": {
+        "name": "asa",
+        "id_name": "az",
+        "questions": []
+    },
+    "qqq": {
+        "name": "qqq",
+        "id_name": "qqq",
+        "questions": []
+    },
+    "qqqq": {
+        "name": "qqq",
+        "id_name": "qqqq",
+        "questions": []
+    },
+    "qwqwq": {
+        "name": "qwqwqw",
+        "id_name": "qwqwq",
+        "questions": []
+    },
+    "sasasa": {
+        "name": "qwqw",
+        "id_name": "sasasa",
+        "questions": []
+    }
+}

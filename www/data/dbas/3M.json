@@ -1,7 +1,7 @@
-﻿[
+[
     {
         "id": "3M1",
-        "name": "Prueba reviewfsdfs",
+        "name": "Usa números de 0 a 999 999. Tiene claro el concepto de unidad, decena, centena, etc. Por ejemplo, entiende que en 3 785 hay 3 unidades de mil, 7 centenas, 8 decenas y 5 unidades; es decir, 3 785 = 3 000+700+80+5. También entiende otras alternativas, como: en 3 785 hay 37 centenas y 85 unidades; es decir 3785=3 700+85, o en 3 785 hay 3 785 unidades. Si le dan dos números sabe cuál es mayor y cuál es menor.",
         "cod": "3M1"
     },
     {
@@ -10,28 +10,13 @@
         "cod": "3M10"
     },
     {
-        "id": "3M100",
-        "name": "HOLA PRUEBA DE DBA",
-        "cod": "3M100"
-    },
-    {
-        "id": "3M101",
-        "name": "PRUEBA 2",
-        "cod": "3M101"
-    },
-    {
-        "id": "3M103",
-        "name": "PRUEBA 3",
-        "cod": "3M103"
-    },
-    {
         "id": "3M11",
         "name": "Mide y estima longitud, distancia, área, capacidad, peso, duración, etc., en objetos y\/o eventos. Por ejemplo: Mide la capacidad de un balde usando una taza y concluye \"La capacidad del balde es de casi 23 tazas\", o mide la altura de su hermano usando un metro y concluye \"Mi hermano mide un metro y medio\". \nIdentifica qué instrumentos de medición debe utilizar según el caso (una balanza para el peso, una regla para la longitud, un reloj para el tiempo, etc.).",
         "cod": "3M11"
     },
     {
         "id": "3M12",
-        "name": "asfadfsadfasdfasdf",
+        "name": "Interpreta y representa datos dados de diferentes maneras.\nResponde a preguntas como ¿Cuál objeto de los que hay en el salón tiene mayor número de unidades: sillas, mesas o libros?",
         "cod": "3M12"
     },
     {
@@ -48,11 +33,6 @@
         "id": "3M15",
         "name": "Reconoce y propone patrones con números o ﬁguras\ngeométricas. Por ejemplo: Descubre que el patrón es “multiplicar por 2” y deduce que el siguiente término es 192.",
         "cod": "3M15"
-    },
-    {
-        "id": "3M16",
-        "name": "azdasdasdas",
-        "cod": "3M16"
     },
     {
         "id": "3M2",

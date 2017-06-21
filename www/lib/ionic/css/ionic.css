@@ -9885,7 +9885,7 @@ ion-content #prev, ion-content #next, ion-content #detail {
  * Header Styles
  * --------------------------------------------------
  */
-.logo-container-item-size, .principal-header .logo-container div:first-child, .principal-header .logo-container div:nth-child(2) {
+.logo-container-item-size, .principal-header .logo-container div:first-child {
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 80px;
   -moz-box-flex: 0;
@@ -9903,10 +9903,7 @@ ion-content #prev, ion-content #next, ion-content #detail {
   .principal-header .logo-container {
     align-items: center; }
     .principal-header .logo-container div:first-child {
-      background: url("../../../img/logo_header_girl.gif") no-repeat center/contain; }
-    .principal-header .logo-container div:nth-child(2) {
-      background: url("../../../img/logo_header_owl.gif") no-repeat center/contain;
-      margin: 0 10px 0 15px; }
+      background: url("../../../img/logo_header.png") no-repeat center/contain; }
     .principal-header .logo-container .title-container * {
       margin: 0;
       color: #4fbab4; }

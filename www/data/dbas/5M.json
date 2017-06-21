@@ -1,0 +1,87 @@
+[
+    {
+        "id": "5M1",
+        "name": "Usa números decimales de hasta tres cifras despúes de la coma teniendo claro el concepto de décima, centésima y milésima. Por ejemplo: en 932,746 hay 9 centenas, 3 decenas, 2 unidades, 7 décimas, 4 centésimas y 6 milésimas. \nMultiplica y divide por 10, 100, 1000, etc. por escrito y mentalmente.",
+        "cod": "5M1"
+    },
+    {
+        "id": "5M10",
+        "name": "Resuelve problemas de proporcionalidad directa. Resuelve problemas sencillos que involucran la proporcionalidad inversa.",
+        "cod": "5M10"
+    },
+    {
+        "id": "5M11",
+        "name": "Construye objetos sencillos a partir de moldes; identiﬁca si un cierto molde puede resultar en un cierto objeto.",
+        "cod": "5M11"
+    },
+    {
+        "id": "5M12",
+        "name": "Resuelve problemas que involucran los conceptos de volumen, área y perímetro. Por ejemplo: Se quiere adornar una caja pegándole papel de rayitas a las cuatro paredes laterales y luego envolviéndola con dos cintas. ",
+        "cod": "5M12"
+    },
+    {
+        "id": "5M13",
+        "name": "Comprende por qué funcionan las fórmulas para calcular áreas de triángulos y paralelogramos.",
+        "cod": "5M13"
+    },
+    {
+        "id": "5M14",
+        "name": "Hace conversiones entre distintas unidades de medida.",
+        "cod": "5M14"
+    },
+    {
+        "id": "5M15",
+        "name": "Calcula el promedio (la media) e identiﬁca la moda en un\nconjunto de datos. Por ejemplo: En la tabla aparece la cantidad de goles que metió cada persona durante el campeonato de fútbol masculino.",
+        "cod": "5M15"
+    },
+    {
+        "id": "5M16",
+        "name": "Comprende la probabilidad de obtener ciertos resultados \nen situaciones sencillas. Por ejemplo: Tiene una bolsa con tres bolas verdes y una blanca.",
+        "cod": "5M16"
+    },
+    {
+        "id": "5M17",
+        "name": "Lee e interpreta gráﬁcas de línea. Comprende que en ciertas situaciones una gráﬁca de puntos puede completarse para obtener una gráﬁca de línea. Por ejemplo: Se siembra una mata de fríjol y a partir del décimo día se mide su altura cada cinco días.",
+        "cod": "5M17"
+    },
+    {
+        "id": "5M2",
+        "name": "Resuelve problemas que involucran sumas, restas, multiplicaciones y divisiones con números decimales.",
+        "cod": "5M2"
+    },
+    {
+        "id": "5M3",
+        "name": "Comprende que elevar un número a una cierta potencia corresponde a multiplicar repetidas veces el número. Comprende la relación entre la raíz cuadrada y elevar al cuadrado, la raíz cúbica y elevar al cubo, etc. \nAsocia las potencias cuadradas con el área de un cuadrado (área= (lado)^2), y las potencias cúbicas con el volumen de un cubo (volumen = (lado)^3).",
+        "cod": "5M3"
+    },
+    {
+        "id": "5M4",
+        "name": "Puede estimar el resultado de un cálculo sin necesidad de calcularlo con exactitud. Por ejemplo: El colegio tiene 8 salones y en cada salón hay 32 estudiantes. ¿Aproximadamente cuántos estudiantes hay en el colegio?\nPara obtener la cifra exacta calcula 32×8. Sin embargo, para estimar el valor, calcula mentalmente 30×8 = 240 y 35×8 = 70×4 = 280 y concluye que el número de estudiantes está entre 240 y 280. ",
+        "cod": "5M4"
+    },
+    {
+        "id": "5M5",
+        "name": "Escribe fracciones como decimales y viceversa. Identiﬁca la fracción como una división. Escribe porcentajes como\nfraccionarios y decimales. Resuelve problemas que involucran porcentajes.",
+        "cod": "5M5"
+    },
+    {
+        "id": "5M6",
+        "name": "Interpreta datos que involucran porcentajes. ",
+        "cod": "5M6"
+    },
+    {
+        "id": "5M7",
+        "name": "Reconoce la jerarquía de las operaciones al escribir y evaluar expresiones numéricas que involucran paréntesis, sumas, restas, multiplicaciones, divisiones y potencias.",
+        "cod": "5M7"
+    },
+    {
+        "id": "5M8",
+        "name": "Multiplica o divide el numerador y el denominador de una fracción por un mismo número para hacerla equivalente a otra y comprende la equivalencia en distintos contextos.  \nComprende que decir “De cada 21 candidatos 12 son elegidos” es equivalente a decir “De cada 7 candidatos 4 son elegidos”.\nIdentiﬁca los múltiplos comunes de dos números y usa esta información para sumar y restar fracciones. ",
+        "cod": "5M8"
+    },
+    {
+        "id": "5M9",
+        "name": "Divide una fracción por un número natural (usando estrategias que muestran comprensión y no sólo memorización) y lo relaciona con la multiplicación de fracciones.",
+        "cod": "5M9"
+    }
+]

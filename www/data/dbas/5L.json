@@ -1,0 +1,62 @@
+[
+    {
+        "id": "5L1",
+        "name": "Lee en voz alta con volumen acorde al público y lugar en el que se encuentra y adecúa su entonación según las marcas textuales, ortográficas y de puntuación.",
+        "cod": "5L1"
+    },
+    {
+        "id": "5L10",
+        "name": "Reconoce los elementos de la lírica que refuerzan el significado de los poemas y los caligramas.",
+        "cod": "5L10"
+    },
+    {
+        "id": "5L11",
+        "name": "Consulta diversas fuentes, organiza y selecciona la información a presentar y prepara recursos visuales de apoyo.",
+        "cod": "5L11"
+    },
+    {
+        "id": "5L12",
+        "name": "Compara textos de un mismo tema.",
+        "cod": "5L12"
+    },
+    {
+        "id": "5L2",
+        "name": "Reconoce las clases de palabras y comprende que cada una de ellas tiene un uso diferente en las oraciones de textos dados.",
+        "cod": "5L2"
+    },
+    {
+        "id": "5L3",
+        "name": "Escribe y separa correctamente palabras que contengan hiatos, diptongos y triptongos.",
+        "cod": "5L3"
+    },
+    {
+        "id": "5L4",
+        "name": "Usa conectores de continuidad, condición, oposición y orden para dar coherencia al texto.",
+        "cod": "5L4"
+    },
+    {
+        "id": "5L5",
+        "name": "Conoce y utiliza la tilde diacrítica en monosílabos para distinguir palabras idénticas de diferentes categorías gramaticales.",
+        "cod": "5L5"
+    },
+    {
+        "id": "5L6",
+        "name": "Utiliza diferentes recursos y menciona las fuentes de información consultadas.",
+        "cod": "5L6"
+    },
+    {
+        "id": "5L7",
+        "name": "Interpreta la información que se presenta en mapas, gráficas, cuadros, tablas y líneas del tiempo.",
+        "cod": "5L7"
+    },
+    {
+        "id": "5L8",
+        "name": "Comprende un texto leído.",
+        "cod": "5L8"
+    },
+    {
+        "id": "5L9",
+        "name": "Escribe artículos de opinión y biografías.",
+        "cod": "5L9"
+    }
+]

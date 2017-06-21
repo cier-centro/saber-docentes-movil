@@ -2,41 +2,25 @@
     <ion-content padding="true">
       <div class="show-answers-page-content">
         <h4>HOJA DE RESULTADOS</h4>
-        <div class="row question-info-container" ng-repeat="question in questions track by $index">
+        <div class="row question-info-container" ng-repeat="question in questions track by $index" ng-init="$parentIndex = $index">
           <div class="col">
             <h5><b>PREGUNTA {{$index+1}}:</b> ({{question.question.cod_question}})</h5>
             <div class="question-info">
               <p>{{question.question.header_question}}</p>
               <h4>Respuesta:</h4>
-              <div class="question-option" ng-repeat="option in question.question.answers track by $index" >
+              <div class="question-option" ng-repeat="option in question.question.answers track by $index" id= "question_{{$parentIndex}}_answer_{{$index}}">
                 <div class="row row-center" ng-if="option.is_correct">
-                  <span class="bullet"></span>
-                  <div>
-                    {{option.header_answer}}
+                  <div id="mathContainer" ng-if="option.header_answer.match('.jpg$') || option.header_answer.match('.png$')" >
+                    <span class="bullet"></span><img src="contents/{{option.header_answer}}" style="width:100%">
+                  </div>
+                  <div id="mathContainer" ng-if="!option.header_answer.match('.jpg$') && !option.header_answer.match('.png$')" >
+                    <span class="bullet"></span>{{option.header_answer}}
                   </div>
                 </div>
               </div>
             </div>
           </div>
-            <!--<div class="col-20">
-                <a class="button button-royal button-block icon-left ion-eye" ng-click="showQuestion(question)">Pregunta {{$index+1}}</a>
-            </div>
-            <div class="col-20" ng-repeat="option in question.question.answers track by $index">
-                {{option.header_answer}}
-                <i class="icon ion-checkmark balanced button button-block" ng-if="$index == question.selected_index && option.is_correct"></i>
-                <i class="icon ion-close-circled assertive button button-block" ng-if="$index == question.selected_index && !option.is_correct"></i>
-            </div>-->
         </div>
-        <!--<div class="row" ng-repeat="question in questions track by $index">
-            <div class="col-20">
-                <a class="button button-royal button-block icon-left ion-eye" ng-click="showQuestion(question)">Pregunta {{$index+1}}</a>
-            </div>
-            <div class="col-20" ng-repeat="option in question.question.answers track by $index">
-                {{option.header_answer}}
-                <i class="icon ion-checkmark balanced button button-block" ng-if="$index == question.selected_index && option.is_correct"></i>
-                <i class="icon ion-close-circled assertive button button-block" ng-if="$index == question.selected_index && !option.is_correct"></i>
-            </div>
-        </div>-->
         <div class="button-container">
           <div class="row responsive-sm">
             <div class="col">
@@ -48,7 +32,7 @@
             <div class="col">
             </div>
             <div class="col">
-              <a class="button button-block load-button" ng-click="Print()">
+              <a class="button button-block load-button" ng-click="showfilename()">
                 <span></span>
                 Descargar PDF
               </a>

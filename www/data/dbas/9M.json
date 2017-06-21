@@ -1,0 +1,92 @@
+[
+    {
+        "id": "9M1",
+        "name": "Reconoce el significado de los exponentes racionales positivos y negativos y utiliza las leyes de los exponentes.\nUtiliza la notación científica para representar y operar con magnitudes en distintos contextos.\nUtiliza las leyes de los exponentes en diversas situaciones, incluyendo la simplificación de expresiones.",
+        "cod": "9M1"
+    },
+    {
+        "id": "9M10",
+        "name": "Calcula el área de superficie y el volumen de pirámides, conos y esferas. Entiende que es posible determinar el volumen o área de superficie de un cuerpo a partir de la descomposición del mismo en sólidos conocidos.",
+        "cod": "9M10"
+    },
+    {
+        "id": "9M11",
+        "name": "Expresa una función cuadrática (y=ax^2 +bx+c) de distintas formas (y=a(x+d)^2+e, o y=a(x-f)(x-g)) y reconoce el significado de los parámetros a, c, d, e, f y g, y su simetría en la gráfica.",
+        "cod": "9M11"
+    },
+    {
+        "id": "9M12",
+        "name": "Conoce las propiedades y las representaciones gráficas de la familia de funciones exponenciales h(x) = ka^x con a>0 y distinto de 1, al igual que los cambios de los parámetros a y k producen en la forma de sus gráficas.\nEn general comprende las propiedades y características de las gráficas para todos los casos.\nUtiliza funciones exponenciales para modelar situaciones y resolver problemas.",
+        "cod": "9M12"
+    },
+    {
+        "id": "9M13",
+        "name": "Conoce las razones trigonométricas seno, coseno y tangente en triángulos rectángulos. Comprende que para un cierto ángulo α, las razones sen(α), cos(α) y tan(α) son independientes de las medidas de los lados del triángulo.\nUtiliza el seno, el coseno y la tangente para solucionar problemas que involucran triángulos rectángulos. \nJustifica geométrica o algebraicamente propiedades de las razones trigonométricas. ",
+        "cod": "9M13"
+    },
+    {
+        "id": "9M14",
+        "name": "Realiza demostraciones geométricas sencillas a partir de principios que conoce:\n- Demuestra que la suma de los ángulos en un triángulo es 180˚.\n- Demuestra el teorema de Tales que dice que un diámetro de un círculo y cualquier punto sobre la circunferencia forman un triángulo rectángulo.",
+        "cod": "9M14"
+    },
+    {
+        "id": "9M15",
+        "name": "Resuelve problemas utilizando principios básicos de conteo (multiplicación y suma).",
+        "cod": "9M15"
+    },
+    {
+        "id": "9M16",
+        "name": "Reconoce las nociones de espacio muestral y de evento, al igual que la notación P(A) para la probabilidad de que ocurra un evento A. ",
+        "cod": "9M16"
+    },
+    {
+        "id": "9M17",
+        "name": "Reconoce los conceptos de distribución y asimetría de un conjunto de datos y reconoce las relaciones entre la media, mediana y moda en relación con la distribución en casos sencillos.",
+        "cod": "9M17"
+    },
+    {
+        "id": "9M18",
+        "name": "Realiza inferencias simples a partir de información estadística de distintas fuentes. ",
+        "cod": "9M18"
+    },
+    {
+        "id": "9M2",
+        "name": "Reconoce el significado del logaritmo de un número positivo en cualquier base y lo calcula sin calculadora en casos simples y con calculadora cuando es necesario, utilizando la relación con el logaritmo en base 10 (log) o el logaritmo en base e (ln). ",
+        "cod": "9M2"
+    },
+    {
+        "id": "9M3",
+        "name": "Identifica cuando una relación es una función, reconoce que una función se puede representar de diversas maneras y encuentra su dominio y su rango.",
+        "cod": "9M3"
+    },
+    {
+        "id": "9M4",
+        "name": "Realiza conversiones de unidades de una magnitud que incluye potencias y razones. Por ejemplo, si una llave vierte agua en un estanque a una razón de 110 cm^3\/min, ¿cuántos metros cúbicos suministra la llave en una hora?",
+        "cod": "9M4"
+    },
+    {
+        "id": "9M5",
+        "name": "Conoce las propiedades y las representaciones gráficas de las familias de funciones lineales f(x)=mx+b al igual que los cambios que los parámetros m y b producen en la forma de sus gráficas.\nReconoce que las ecuaciones ax+by=c definen líneas rectas en el plano e identifica que las que no son verticales, siempre se pueden escribir en la forma y=mx+b. \nComprende que las funciones lineales modelan situaciones con razón de cambio constante.",
+        "cod": "9M5"
+    },
+    {
+        "id": "9M6",
+        "name": "Plantea sistemas de dos ecuaciones lineales con dos incógnitas y los resuelve utilizando diferentes estrategias.\nReconoce cuándo un sistema de ecuaciones lineales no tiene solución. ",
+        "cod": "9M6"
+    },
+    {
+        "id": "9M7",
+        "name": "Describe características de la relación entre dos variables a partir de una gráfica.",
+        "cod": "9M7"
+    },
+    {
+        "id": "9M8",
+        "name": "Conoce las propiedades y las representaciones gráficas de la familia de funciones g (x) = ax^n con n entero positivo o negativo.",
+        "cod": "9M8"
+    },
+    {
+        "id": "9M9",
+        "name": "Comprende la noción de intervalo en la recta numérica, y representa intervalos de diversas formas (verbal, inecuaciones, de forma gráfica y con notación de intervalo).\nResuelve y formula problemas que involucran inecuaciones lineales de una variable utilizando las propiedades básicas de las desigualdades y representando su solución de forma gráfica en la recta numérica.",
+        "cod": "9M9"
+    }
+]

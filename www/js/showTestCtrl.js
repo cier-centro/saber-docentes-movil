@@ -182,9 +182,10 @@ cont_angular.controller('showTestCtrl', ['$scope', '$stateParams', '$ionicPopup'
             for (var j in $scope.questions) {
               var que = $scope.questions[j].question
               var div = angular.element("<div>")
+              if(!que.file) que.file=""
               body.append("<p>"+que.header_question+ "</p>")
               var imgData = "";
-              if (que.type==3){
+              if (que.file.match(".jpg$") || que.file.match(".png$")){
                 var canvas = document.createElement('canvas');
                 var context = canvas.getContext('2d');
                 var img = document.getElementById('ImgContainer_'+j);
@@ -198,14 +199,14 @@ cont_angular.controller('showTestCtrl', ['$scope', '$stateParams', '$ionicPopup'
                 tempimg.src = imgData
                 div.append(tempimg)
               }
-              if (que.type==1){
+              if (que.file.match(".pdf$")){
                 var canvas = document.getElementById('pdf_viewer_'+j);
                 imgData = canvas.toDataURL("image/png");
                 var tempimg= new Image();
                 tempimg.src = imgData
                 div.append(tempimg)
               }
-              if (que.type==2){
+              if (!que.file.match(".pdf$") && !(que.file.match(".jpg$") || que.file.match(".png$"))){
                 var svg = document.querySelector('#mathContainer_'+j+" svg");
                 div.append(svg)
               }
@@ -214,17 +215,33 @@ cont_angular.controller('showTestCtrl', ['$scope', '$stateParams', '$ionicPopup'
                 var answer = angular.element("<div>");
                 var mark = angular.element("<span>");
                 answer.append(mark)
-                if (que.type==2){
-                  var svg = document.querySelector('#question_'+j+'_answer_'+ans+' svg');
-                  answer.append(svg)
+                if (que.answers[ans].header_answer.match(".jpg$") || que.answers[ans].header_answer.match(".png$")){
+                  var canvas = document.createElement('canvas');
+                  var context = canvas.getContext('2d');
+                  var img = document.querySelector('#question_'+j+'_answer_'+ans+' img');
+                  if(img.complete && img.naturalHeight){
+                    canvas.width = img.naturalWidth;
+                    canvas.height = img.naturalHeight;
+                    context.drawImage(img, 0, 0 );
+                  }
+                  imgData = canvas.toDataURL("image/png");
+                  var tempimg= new Image();
+                  tempimg.src = imgData
+                  answer.append(tempimg)
                 }else{
-                  answer.append(que.answers[ans].header_answer)
+                  var svg = document.querySelector('#question_'+j+'_answer_'+ans+' svg');
+                  if(svg!= null){
+                    answer.append(svg)
+                  }else{
+                    answer.append(que.answers[ans].header_answer)
+                  }
                 }
                 div.append(answer)
 
               }
 
               body.append(div)
+
             }
             var pdfOutput = htmlTemplate.html();
             window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, function(fileSystem) {
