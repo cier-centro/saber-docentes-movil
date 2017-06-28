@@ -1,0 +1,77 @@
+[
+    {
+        "id": "7M1",
+        "name": "Resuelve problemas que involucran números racionales positivos y negativos (fracciones, decimales o números mixtos) en diversos contextos haciendo uso de las operaciones de adición, sustracción, multiplicación, división y potenciación. \nRealiza cálculos a mano, con calculadoras o dispositivos electrónicos. \nExtiende los ejes del plano coordenado a valores negativos en diferentes contextos. Comprende la simetría con respecto a los ejes.  \nUsa los signos <, ≤, ≥ y > para representar relaciones entre números. ",
+        "cod": "7M1"
+    },
+    {
+        "id": "7M10",
+        "name": "Comprende que algunos conjuntos de datos pueden representarse con histogramas y que distintos intervalos producen distintas representaciones. \nReconoce las ventajas y desventajas de representar los mismos datos usando distintas representaciones. ",
+        "cod": "7M10"
+    },
+    {
+        "id": "7M11",
+        "name": "A partir de una gráfica de puntos o de línea, identifica e interpreta los puntos máximos y mínimos y el cambio entre dos puntos de la gráfica. ",
+        "cod": "7M11"
+    },
+    {
+        "id": "7M12",
+        "name": "Comprende cómo la distribución de los datos afecta la media (promedio), la mediana y la moda.",
+        "cod": "7M12"
+    },
+    {
+        "id": "7M13",
+        "name": "Entiende la diferencia entre la probabilidad teórica y el resultado de un experimento.\nRelaciona la probabilidad con fracciones y porcentajes.\nUsa diagramas de árbol para calcular la probabilidad de un evento. ",
+        "cod": "7M13"
+    },
+    {
+        "id": "7M14",
+        "name": "Imagina y describe la ﬁgura que resultaría al sacarle tajadas a un objeto.",
+        "cod": "7M14"
+    },
+    {
+        "id": "7M15",
+        "name": "En una serie sencilla identiﬁca el patrón y expresa la n-ésima posición en términos de n.",
+        "cod": "7M15"
+    },
+    {
+        "id": "7M2",
+        "name": "Identifica si en una situación dada las variables son directamente proporcionales o inversamente proporcionales o ninguna de las dos.\nReconoce características necesarias para garantizar la proporcionalidad.",
+        "cod": "7M2"
+    },
+    {
+        "id": "7M3",
+        "name": "Descompone cualquier número entero en factores primos. Identifica el máximo común divisor (MCD) y el mínimo común múltiplo (mcm) de dos o más números y los usa para simpliﬁcar cálculos.",
+        "cod": "7M3"
+    },
+    {
+        "id": "7M4",
+        "name": "Comprende y calcula incrementos y reducciones porcentuales en diversos contextos. ",
+        "cod": "7M4"
+    },
+    {
+        "id": "7M5",
+        "name": "Usa las relaciones entre velocidad, distancia y tiempo para solucionar problemas. En particular, comprende la diferencia entre velocidad constante y velocidad promedio durante un intervalo de tiempo y convierte unidades de velocidad (como m\/s y km\/h).",
+        "cod": "7M5"
+    },
+    {
+        "id": "7M6",
+        "name": "Hace dos copias iguales de 2 rectas paralelas cortadas por una secante, y por medio de superposiciones, descubre la relación entre los ángulos formados. Soluciona problemas en contextos geométricos que involucran calcular ángulos faltantes en un triángulo o cuadrilátero. ",
+        "cod": "7M6"
+    },
+    {
+        "id": "7M7",
+        "name": "Manipula expresiones lineales (del tipo ax + b, donde a y b son números dados), las representa usando gráﬁcas o tablas y las usa para modelar situaciones. Soluciona ecuaciones lineales (del tipo ax + b = c, donde a, b y c, son  números dados).",
+        "cod": "7M7"
+    },
+    {
+        "id": "7M8",
+        "name": "Dada una expresión de la forma ax^2 + bx + c (donde a, b y c son números dados), calcula el valor de la expresión para distintos valores de x (positivos y negativos) y presenta sus resultados en forma de tabla o gráﬁca de puntos.",
+        "cod": "7M8"
+    },
+    {
+        "id": "7M9",
+        "name": "Predice el resultado de rotar, reﬂejar, transladar, ampliar o\nreducir una ﬁgura.",
+        "cod": "7M9"
+    }
+]

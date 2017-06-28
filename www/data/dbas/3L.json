@@ -1,0 +1,57 @@
+[
+    {
+        "id": "3L1",
+        "name": "Lee en voz alta, con fluidez (dicción y velocidad) y con la entonación adecuada según el mensaje del texto.",
+        "cod": "3L1"
+    },
+    {
+        "id": "3L10",
+        "name": "Escribe textos de mínimo dos párrafos, de tipo informativo y narrativo (realizando la planeación sugerida por el docente).",
+        "cod": "3L10"
+    },
+    {
+        "id": "3L11",
+        "name": "Realiza intervenciones orales sobre un tema tratado en clase, una lectura o un evento significativo, en las cuales contesta, pregunta o da su opinión.",
+        "cod": "3L11"
+    },
+    {
+        "id": "3L2",
+        "name": "Sabe qué son los sustantivos y adjetivos y los utiliza en sus producciones orales o escritas.",
+        "cod": "3L2"
+    },
+    {
+        "id": "3L3",
+        "name": "Usa conectores copulativos y disyuntivos entre oraciones y párrafos que le permiten unir ideas y dar coherencia a sus escritos.",
+        "cod": "3L3"
+    },
+    {
+        "id": "3L4",
+        "name": "Aplica las reglas ortográficas (utiliza tildes, mayúsculas y puntuación).",
+        "cod": "3L4"
+    },
+    {
+        "id": "3L5",
+        "name": "Utiliza en sus producciones escritas el punto y aparte para separar párrafos, la coma para enumerar y la mayúscula para iniciar una oración y para escribir nombres propios.",
+        "cod": "3L5"
+    },
+    {
+        "id": "3L6",
+        "name": "Establece la relación entre palabras, imágenes y gráficos en un texto.",
+        "cod": "3L6"
+    },
+    {
+        "id": "3L7",
+        "name": "Realiza inferencias y relaciones coherentes sobre el contenido de una lectura a partir de la información que le brinda el texto.",
+        "cod": "3L7"
+    },
+    {
+        "id": "3L8",
+        "name": "Planea sus escritos a partir de tres elementos: propósito comunicativo (¿Qué quiero decir? y ¿Para qué lo quiero decir?), mensaje y destinatario, utilizando esquemas sencillos sugeridos.",
+        "cod": "3L8"
+    },
+    {
+        "id": "3L9",
+        "name": "Escribe textos de carácter lírico y dramático, realizando la planeación sugerida por el docente.",
+        "cod": "3L9"
+    }
+]

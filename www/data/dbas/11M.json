@@ -1,0 +1,87 @@
+[
+    {
+        "id": "11M1",
+        "name": "Comprende que entre cualesquiera dos números reales hay infinitos números reales.",
+        "cod": "11M1"
+    },
+    {
+        "id": "11M10",
+        "name": "Conoce las funciones trigonométricas inversas (arcoseno, arcocoseno y arcotangente) junto con sus gráficas, dominio y rango.  \nComprende que para definir las funciones trigonométricas inversas es necesario restringir el dominio de las funciones trigonométricas. Así mismo, conoce la selección de dominio y rango utilizada mundialmente. Utiliza esta comprensión para encontrar otros ángulos con el mismo seno, coseno o tangente aparte del valor que da la calculadora. \nSoluciona ecuaciones trigonométricas simples en un intervalo dado (utilizando calculadoras, las gráficas relacionadas, o el círculo unitario). ",
+        "cod": "11M10"
+    },
+    {
+        "id": "11M11",
+        "name": "Conoce las propiedades geométricas que definen distintos tipos de cónicas (parábolas, elipses e hipérbolas) en el plano y las utiliza para encontrar las ecuaciones generales de este tipo de curvas. Por ejemplo, una elipse es el conjunto de puntos cuya distancia a un foco más la distancia al otro foco es siempre la misma. \nConoce algunas aplicaciones de las curvas cónicas. Por ejemplo: las órbitas de los planetas alrededor del Sol son elípticas con el sol en uno de sus focos. Las parábolas se utilizan para crear la parte reflectiva de las linternas.",
+        "cod": "11M11"
+    },
+    {
+        "id": "11M12",
+        "name": "Utiliza los sistemas de coordenadas espaciales cartesiano y esférico para especificar la localización de objetos en el espacio.",
+        "cod": "11M12"
+    },
+    {
+        "id": "11M13",
+        "name": "Razona geométrica y algebraicamente para resolver problemas y para encontrar fórmulas que relacionan magnitudes en diversos contextos.\nUtiliza y contrasta diversas estrategias para modelar y resolver un problema y justifica su solución.",
+        "cod": "11M13"
+    },
+    {
+        "id": "11M14",
+        "name": "Utiliza nociones básicas relacionadas con el manejo y recolección de información como población, muestra y muestreo aleatorio.",
+        "cod": "11M14"
+    },
+    {
+        "id": "11M15",
+        "name": "Conoce el significado de la probabilidad condicional y su relación con la probabilidad de la intersección: P(A\/B) = P(A∩B) \/ P(B). Utiliza la probabilidad condicional para hacer inferencias sobre muestras aleatorias. ",
+        "cod": "11M15"
+    },
+    {
+        "id": "11M16",
+        "name": "Determina si dos eventos son dependientes o independientes utilizando la noción de probabilidad condicional. \nEjemplo: ...Como P (B|A) = P(B), concluye que los eventos A y B son independientes (pues la ocurrencia de uno no influye en la ocurrencia del otro). Afirma que el estudio indica que el pesticida no fue efectivo.",
+        "cod": "11M16"
+    },
+    {
+        "id": "11M17",
+        "name": "Reconoce la desviación estándar como una medida de dispersión de un conjunto de datos. En particular, para datos que tienen una distribución aproximadamente simétrica (en \"forma de campana\"), conoce el hecho de que alrededor del 68% de los datos se encuentra a menos de una desviación estándar de la media (promedio) y casi la totalidad de los datos se encuentran a menos de dos desviaciones estándar de la media.",
+        "cod": "11M17"
+    },
+    {
+        "id": "11M2",
+        "name": "Estima el tamaño de ciertas cantidades y juzga si los cálculos numéricos y sus resultados son razonables. Estima el error posible en un cálculo. \nUtiliza unidades de medida para razonar de manera cuantitativa y resolver problemas.",
+        "cod": "11M2"
+    },
+    {
+        "id": "11M3",
+        "name": "Interpreta la pendiente de la recta tangente a la gráfica de una función f(x) en un punto A = (a, f (a)) como el límite de las pendientes de las rectas secantes entre el punto A y puntos sobre la gráfica que se acercan a A. Es decir, como: lim (h→0)  [ f (a + h) — f (a) ] \/ h\nUtiliza esto para estimar la razón de cambio instantánea f '(a) para un valor particular de a.",
+        "cod": "11M3"
+    },
+    {
+        "id": "11M4",
+        "name": "Reconoce la derivada de una función como la función de razón de cambio instantáneo.  Dada la gráfica de una función, dibuja de manera aproximada la gráfica de la derivada, identificando claramente los ceros de la derivada y los intervalos donde ésta es negativa y positiva.",
+        "cod": "11M4"
+    },
+    {
+        "id": "11M5",
+        "name": "Conoce las fórmulas de las derivadas de funciones polinomiales, trigonométricas, potencias, exponenciales y logarítmicas y las utiliza para resolver problemas.",
+        "cod": "11M5"
+    },
+    {
+        "id": "11M6",
+        "name": "Modela situaciones haciendo uso de funciones definidas a trozos. ",
+        "cod": "11M6"
+    },
+    {
+        "id": "11M7",
+        "name": "Analiza algebraicamente funciones racionales y encuentra su dominio y sus asíntotas.",
+        "cod": "11M7"
+    },
+    {
+        "id": "11M8",
+        "name": "Reconoce las propiedades básicas que diferencian las familias de funciones exponenciales, lineales, logarítmicas, polinómicas, etc., e identifica cuáles puede utilizar para modelar situaciones específicas.\nUtiliza la familia de funciones f (x) = a sen (bx)+c para modelar fenómenos periódicos reconociendo las nociones de periodo, frecuencia y amplitud.",
+        "cod": "11M8"
+    },
+    {
+        "id": "11M9",
+        "name": "Reconoce cuándo una función tiene o no una función inversa.  \nDetermina la inversa de una función f (x) en un intervalo en el cual es invertible y la reconoce como el proceso de revertir las operaciones que llevan de x a f (x).",
+        "cod": "11M9"
+    }
+]
