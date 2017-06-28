@@ -14,11 +14,14 @@ cont_angular.controller('showTestCtrl', ['$scope', '$stateParams', '$ionicPopup'
                 }
             }
         }
+
         var renderCanvas = function(){
           for(var q in user_answers){
             var que=user_answers[q].question
-            if(que.type==1){
-              $scope.loadPDFAng(que.file, q)
+            if(que.file){
+              if(que.file.match(".pdf$")){
+                $scope.loadPDFAng(que.file, q)
+              }
             }
           }
         }
@@ -47,66 +50,6 @@ cont_angular.controller('showTestCtrl', ['$scope', '$stateParams', '$ionicPopup'
             $ionicScrollDelegate.resize();
         }
 
-        $scope.showQuestion = function (q) {
-            if ($scope.modal != null) {
-                $scope.modal.remove();
-            }
-            $scope.questionToDetail = q;
-            var template = '<ion-modal-view><ion-header-bar><h4 class="title">Respuesta de pregunta {{questionToDetail.cod_question}}</h4><div class="buttons"><button class="button button-icon ion-close" ng-click="modal.hide()"></button></div></ion-header-bar><ion-content>'
-            template += '<h4><p style="margin-left:0.5em">Encabezado:</p></h4>'
-            template += '<div class="card">'
-            template += '<div class="item item-text-wrap" align="justify">'
-            template += '<h2>{{questionToDetail.question.header_question}}</h2>'
-            template += '</div>'
-            template += '</div>'
-            template += '<div class="card">'
-            template += '<div class="item item-text-wrap">{{questionToDetail.file}}'
-            if ($scope.questionToDetail.question.type == '2') {
-                template += '{{questionToDetail.question.file}}'
-            } else if ($scope.questionToDetail.question.type == '1') {
-                template += '<div>'
-                template += '<button id="load" class="button button-balanced" ng-click="loadPDFAng(questionToDetail.question.file)">Cargar lectura</button>'
-                template += '<button id="prev" class="button button-balanced" style="display:none">Pagina Anterior</button>'
-                template += '<button id="next" class="button button-balanced" style="display:none">Pagina Siguiente</button>'
-                template += '<span id="detail" style="display:none">Pagina: <span id="page_num"></span> / <span id="page_count"></span></span>'
-                template += '</div>'
-                template += '<canvas id="pdf_viewer" class="row" style="height: 800px;display:none"></canvas>'
-
-            } else if ($scope.questionToDetail.question.type == '3') {
-                template += '<img src="contents/' + $scope.questionToDetail.question.file + '" class="row">'
-            }
-            template += '</div>'
-            template += '</div>'
-            template += '<h4><p style="margin-left:0.5em">Respuestas:</p></h4>'
-            template += '<div class="card">'
-            template += '<div><div class="row"><div class="col col-25" align="center"><h4>Seleccionada</h4></div><div class="col col-75" align="center"><h4>Respuesta</h4></div></div>'
-            template += '<div class="row" ng-repeat="answer in questionToDetail.question.answers track by $index"  >'
-            template += '<div class="col col-25" align="center" ng-class="questionToDetail.selected_index==$index ? \'ion-arrow-right-b\':\'SA\'"></div>'
-            template += '<div class="col col-75" align="justify" ng-class="answer.is_correct==true ? \'balanced-bg\':\'SA\'">'
-            template += '<div class="col col-75" align="justify" ng-class="questionToDetail.selected_index==$index && answer.is_correct==false ? \'assertive-bg\':\'SA\'">'
-            //template += '<div class="col col-75" align="justify" ng-class="{true:\'assertive-bg\', false:\'\'}[questionToDetail.selected_index==$index && answer.is_correct==false]">'
-            if ($scope.questionToDetail.question.type == 2) {
-                template += '{{answer.header_answer}}'
-            } else {
-                template += '{{answer.header_answer}}'
-            }
-            template += '</div>'
-            template += '</div>'
-            template += '</div>'
-            template += '</div>'
-            template += '<div class="buttons" style="text-align: right;">'
-            template += '<p style="margin-right:1em"><button class="button button-assertive" ng-click="modal.hide()">Volver a Resultados</button></p>'
-            template += '</div>'
-            template += '</ion-content></ion-modal-view>';
-            $scope.modal = $ionicModal.fromTemplate(template, {
-                scope: $scope
-            });
-            $scope.modal.show();
-            $scope.$on('modal.shown', function () {
-                MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
-                MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
-            });
-        }
 
         $scope.resetvariablesAndGoBack = function () {
             selected_dbas = [];
@@ -173,96 +116,101 @@ cont_angular.controller('showTestCtrl', ['$scope', '$stateParams', '$ionicPopup'
 
         }
 
-        $scope.savePDF = function () {
-            var htmlTemplate = angular.element('<html>')
-            htmlTemplate.html('<head><meta charset="UTF-8"></head>')
-            var body = angular.element("<body>")
-            htmlTemplate.append(body)
+        $scope.processQuestion = function (q,index, writer){
+            var html = ""
+            if(!q.file) q.file=""
+            html+=""+"<p>"+q.header_question+ "</p><div>"
 
-            for (var j in $scope.questions) {
-              var que = $scope.questions[j].question
-              var div = angular.element("<div>")
-              if(!que.file) que.file=""
-              body.append("<p>"+que.header_question+ "</p>")
-              var imgData = "";
-              if (que.file.match(".jpg$") || que.file.match(".png$")){
+            var imgData = "";
+            if (q.file.match(".jpg$") || q.file.match(".png$")){
+              var canvas = document.createElement('canvas');
+              var context = canvas.getContext('2d');
+              var img = document.getElementById('ImgContainer_'+index);
+              if(img.complete && img.naturalHeight){
+                canvas.width = 595;
+                var new_height = 595/img.naturalWidth*img.naturalHeight;
+                canvas.height = new_height;
+                context.drawImage(img, 0, 0, 595, new_height);
+              }
+              imgData = canvas.toDataURL("image/png");
+              html+="<img src='"+imgData+"'>"
+            }
+            if (q.file.match(".pdf$")){
+              var canvas = document.getElementById('pdf_viewer_'+index);
+              var newcanvas = document.createElement('canvas');
+              var context = newcanvas.getContext('2d');
+              var new_height = 595/canvas.width*canvas.height;
+              newcanvas.width = 595;
+              newcanvas.height = new_height;
+              context.drawImage(canvas, 0, 0, 595,new_height);
+              imgData = newcanvas.toDataURL("image/png");
+              html+="<img src='"+imgData+"'>"
+            }
+            if (!q.file.match(".pdf$") && !(q.file.match(".jpg$") || q.file.match(".png$"))){
+              var svg = document.querySelector('#mathContainer_'+index+" svg");
+              var ser = new XMLSerializer()
+              html+=ser.serializeToString(svg)
+            }
+            for (var ans in q.answers){
+              html+="<div>"
+              if (q.answers[ans].header_answer.match(".jpg$") || q.answers[ans].header_answer.match(".png$")){
                 var canvas = document.createElement('canvas');
                 var context = canvas.getContext('2d');
-                var img = document.getElementById('ImgContainer_'+j);
+                var img = document.querySelector('#question_'+index+'_answer_'+ans+' img');
                 if(img.complete && img.naturalHeight){
-                  canvas.width = img.naturalWidth;
-                  canvas.height = img.naturalHeight;
-                  context.drawImage(img, 0, 0 );
+                  canvas.width = 595;
+                  var new_height = 595/img.naturalWidth*img.naturalHeight;
+                  canvas.height = new_height;
+                  context.drawImage(img, 0, 0, 595, new_height);
                 }
                 imgData = canvas.toDataURL("image/png");
-                var tempimg= new Image();
-                tempimg.src = imgData
-                div.append(tempimg)
-              }
-              if (que.file.match(".pdf$")){
-                var canvas = document.getElementById('pdf_viewer_'+j);
-                imgData = canvas.toDataURL("image/png");
-                var tempimg= new Image();
-                tempimg.src = imgData
-                div.append(tempimg)
-              }
-              if (!que.file.match(".pdf$") && !(que.file.match(".jpg$") || que.file.match(".png$"))){
-                var svg = document.querySelector('#mathContainer_'+j+" svg");
-                div.append(svg)
-              }
-              for (var ans in que.answers){
-                console.log(que.answers[ans])
-                var answer = angular.element("<div>");
-                var mark = angular.element("<span>");
-                answer.append(mark)
-                if (que.answers[ans].header_answer.match(".jpg$") || que.answers[ans].header_answer.match(".png$")){
-                  var canvas = document.createElement('canvas');
-                  var context = canvas.getContext('2d');
-                  var img = document.querySelector('#question_'+j+'_answer_'+ans+' img');
-                  if(img.complete && img.naturalHeight){
-                    canvas.width = img.naturalWidth;
-                    canvas.height = img.naturalHeight;
-                    context.drawImage(img, 0, 0 );
-                  }
-                  imgData = canvas.toDataURL("image/png");
-                  var tempimg= new Image();
-                  tempimg.src = imgData
-                  answer.append(tempimg)
+                html+="<img src='"+imgData+"'>"
+              }else{
+                var svg = document.querySelector('#question_'+index+'_answer_'+ans+' svg');
+                if(svg!= null){
+                  var ser = new XMLSerializer()
+                  html+=ser.serializeToString(svg)
                 }else{
-                  var svg = document.querySelector('#question_'+j+'_answer_'+ans+' svg');
-                  if(svg!= null){
-                    answer.append(svg)
-                  }else{
-                    answer.append(que.answers[ans].header_answer)
-                  }
+                  html+=q.answers[ans].header_answer
                 }
-                div.append(answer)
-
               }
-
-              body.append(div)
-
+              html+="</div>"
             }
-            var pdfOutput = htmlTemplate.html();
-            window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, function(fileSystem) {
-               fileSystem.root.getFile($scope.header_data.filename+".html", {create: true}, function(entry) {
-                  var fileEntry = entry;
-                  entry.createWriter(function(writer) {
-                     writer.onwrite = function(evt) {
-                     window.open(entry.nativeURL)
-                  };
-                     writer.write( pdfOutput );
-                  }, function(error) {
-                     console.log(error);
-                  });
+            return html+"</div>"
+        }
 
-               }, function(error){
-                  console.log(error);
-               });
-            },
-            function(event){
-             console.log( evt.target.error.code );
+
+        $scope.savePDF = function () {
+          window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, function(fileSystem) {
+            fileSystem.root.getFile($scope.header_data.filename+".html", {create: true}, function(entry) {
+              $scope.fileEntry = entry;
+              entry.createWriter(function(writer) {
+                var i=0
+                var end = true;
+                writer.onwriteend  = function(evt) {
+                  if(i<$scope.questions.length){
+                    writer.write($scope.processQuestion($scope.questions[i].question,i,writer));
+                    console.log(i)
+                    i++
+                  }else{
+                    if(end){
+                      writer.write("</body></html>")
+                      end=false
+                    }
+                  }
+                };
+                writer.write('<html><head><meta charset="UTF-8"><style>div{border:2px solid rgb(100,100,100);margin:20px;max-width:95%}span{margin-right:2%;border-bottom:2px solid rgb(100,100,100);background-color:rgb(230,230,230);padding:10px;width:100%;display:block}img{margin:10px 10% 10px 10%;max-width:80%}svg{margin:10px 10% 10px 10%}p{border-bottom:3px solid rgb(100, 100, 100);border-top:3px solid rgb(100, 100, 100);background-color:rgba(200, 200, 200, 1);width:100%}div.respuesta{border:none !important;margin:10px 10% 10px 10%}</style></head><body>');
+              }, function(error) {
+                console.log("no se pudo crear el escritor de archivos");
+              });
+
+            }, function(error){
+              console.log("no se pudo crear/obtener archivo");
             });
+          },
+          function(event){
+            console.log("no se pudo acceder al fileSystem");
+          });
 
         }
 

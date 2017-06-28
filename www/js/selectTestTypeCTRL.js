@@ -27,6 +27,18 @@ cont_angular.controller('selectTestTypeCTRL', ['$scope', '$stateParams', '$http'
           return true;
         }
 
+        $scope.randomQuestion = function(dba_set){
+
+          var max = dba_set.length-1;
+          var min = 0;
+          var index =  Math.floor(Math.random()*(max-min+1)+min);
+          var second = dba_set[index];
+          var max2 = second["questions"].length-1;
+          var min2 = 0;
+          var index2 =  Math.floor(Math.random()*(max2-min2+1)+min2);
+          return [index,index2]
+        }
+
         $scope.executeOption = function(){
           if ($scope.validateFields()) {
             test_name= $scope.data.test_name;
@@ -34,6 +46,9 @@ cont_angular.controller('selectTestTypeCTRL', ['$scope', '$stateParams', '$http'
             selected_asignare = $scope.data.id_asignature
             max_questions= $scope.data.max_questions;
             selected_option = $scope.data.option;
+            selected_questions = [];
+            selected_dbas=[];
+            $scope.dbas = [];
             if($scope.data.option=="manual"){
               $state.go("select_dba");
             } else{
@@ -47,31 +62,36 @@ cont_angular.controller('selectTestTypeCTRL', ['$scope', '$stateParams', '$http'
                 for (var i = 0; i < inputs.length; i++) {
                     selected_dbas.push(inputs[i].id);
                 }
-    						var url = "data/questions.json";
+                var url = "data/questions.json";
     						if(ionic.Platform.isAndroid()){
     							url = "/android_asset/www/data/questions.json";
     						}
     						$http.get(url).success(function(response){
-    							console.log(selected_dbas)
-    							console.log(response)
     							for (var o in selected_dbas){
-    								console.log(o)
     								if (response[selected_dbas[o]]){
     									$scope.dbas.push(response[selected_dbas[o]])
     								}
     							}
-    							for (var i in $scope.dbas) {
-                      for (var j in $scope.dbas[i]["questions"]) {
-                          if (selected_questions.length < max_questions) {
-                              if (Math.random() > 0.5) {
-                                  selected_questions.push($scope.dbas[i]["questions"][j].id);
-                              }
-                          }
+                  console.log($scope.dbas)
+                  var qset=[];
+                  var added_q = 0;
+                  while(added_q<max_questions){
+                    var n_q= $scope.randomQuestion($scope.dbas)
+                    var add= true
+                    for(var e in qset){
+                      if(qset[e][0]==n_q[0] && qset[e][1]==n_q[1]){
+                        add=false
                       }
+                    }
+                    if(add){
+                      selected_questions.push($scope.dbas[n_q[0]]["questions"][n_q[1]].id);
+                      qset.push(n_q)
+                      added_q++;
+                    }
                   }
     							shuffle(selected_questions);
     							questions_data = $scope.dbas;
-    							$state.go("show_test");
+                  $state.go("show_test");
     						});
     					});
             }
