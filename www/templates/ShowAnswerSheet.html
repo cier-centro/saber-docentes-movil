@@ -10,10 +10,10 @@
               <h4>Respuesta:</h4>
               <div class="question-option" ng-repeat="option in question.question.answers track by $index" id= "question_{{$parentIndex}}_answer_{{$index}}">
                 <div class="row row-center" ng-if="option.is_correct">
-                  <div id="mathContainer" ng-if="option.header_answer.match('.jpg$') || option.header_answer.match('.png$')" >
+                  <div id="mathContainer" ng-if="option.header_answer.endsWith('.jpg') || option.header_answer.endsWith('.png')" >
                     <span class="bullet"></span><img src="contents/{{option.header_answer}}" style="width:100%">
                   </div>
-                  <div id="mathContainer" ng-if="!option.header_answer.match('.jpg$') && !option.header_answer.match('.png$')" >
+                  <div id="mathContainer" ng-if="!option.header_answer.endsWith('.jpg') && !option.header_answer.endsWith('.png')" >
                     <span class="bullet"></span>{{option.header_answer}}
                   </div>
                 </div>

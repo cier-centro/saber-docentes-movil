@@ -20,13 +20,13 @@
             <div class="question-info">
               <p>{{question.question.header_question}}</p>
               <div class="item item-text-wrap">
-                <div id="mathContainer_{{$index}}" ng-if="!question.question.file.match('.pdf$') && !(question.question.file.match('.jpg$') || question.question.file.match('.png$')) && question.question.file!=''">
+                <div id="mathContainer_{{$index}}" ng-if="!question.question.file.endsWith('.pdf') && !(question.question.file.endsWith('.jpg') || question.question.file.endsWith('.png')) && question.question.file!='' && question.question.file!=null">
                     {{"$$"+question.question.file+"$$"}}
                 </div>
-                <div id="mathContainer" ng-if="question.question.file.match('.pdf$')">
+                <div id="mathContainer" ng-if="question.question.file.endsWith('.pdf')">
                     <canvas id="pdf_viewer_{{$index}}" style="width:100%"></canvas>
                 </div>
-                <div id="mathContainer" ng-if="question.question.file.match('.jpg$') || question.question.file.match('.png$')" >
+                <div id="mathContainer" ng-if="question.question.file.endsWith('.jpg') || question.question.file.endsWith('.png')" >
                     <img id="ImgContainer_{{$index}}" src="contents/{{question.question.file}}" class="row" >
                 </div>
               </div>
@@ -34,10 +34,10 @@
               <div>
                 <div ng-repeat="option in question.question.answers track by $index"  class="question-option" id="question_{{parentIndex}}_answer_{{$index}}">
                   <div class="row row-center">
-                    <div ng-if="option.header_answer.match('.jpg$') || option.header_answer.match('.png$')" >
+                    <div ng-if="option.header_answer.endsWith('.jpg') || option.header_answer.endsWith('.png')" >
                       <span class="bullet"></span><img src="contents/{{option.header_answer}}" style="width:100%">
                     </div>
-                    <div ng-if="!option.header_answer.match('.jpg$') && !option.header_answer.match('.png$')" >
+                    <div ng-if="!option.header_answer.endsWith('.jpg') && !option.header_answer.endsWith('.png')" >
                       <span class="bullet"></span>{{option.header_answer}}
                     </div>
                   </div>

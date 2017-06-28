@@ -45,6 +45,11 @@
 
 
         </style>
+        <script>
+        String.prototype.endsWith = function(suffix) {
+            return this.match(suffix+"$") == suffix;
+        };
+        </script>
 
 
         <script src="js/app.js"></script>

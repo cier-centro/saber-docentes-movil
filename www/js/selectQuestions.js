@@ -151,7 +151,7 @@ $scope.showDetail = function ($event, question) {
 
     } else if (f.match(".jpg$") || f.match(".png$")) {
       template += '<img src="contents/' + $scope.questionToDetail.file + '" class="row">'
-    }else{
+    } else if (!f.endsWith('.pdf') && !(f.endsWith('.jpg') || f.endsWith('.png')) && f!='' && f!=null) {
       template += '{{"$$"+questionToDetail.file+"$$"}}'
     }
     template += '</div>'
