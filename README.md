@@ -1,5 +1,5 @@
-# saber-estudiantes-movil
-Saber estudiantes movil
+# saber-docentes-movil
+Saber docentes movil
 
 instalar la version de ionci 2.0.0:
 ```
