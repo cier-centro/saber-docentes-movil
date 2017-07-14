@@ -135,6 +135,8 @@ $scope.showDetail = function ($event, question) {
     break;
     case 'NA':
     break;
+    case "":
+    break;
     default:
     template += '<div class="card">'
     template += '<div class="item item-text-wrap">'
